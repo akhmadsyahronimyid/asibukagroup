@@ -87,7 +87,3 @@ markdown = front_matter + "".join(html_tables)
 # Write markdown directly into the output directory without creating subdirectories
 filename = f"{slug}.md"
 (OUTPUT_DIR / filename).write_text(markdown)
-
-# === Write Timestamp ===
-timestamp_path = OUTPUT_DIR / "last_update.txt"
-timestamp_path.write_text(f"Last updated: {datetime.utcnow().isoformat()}Z\n")
