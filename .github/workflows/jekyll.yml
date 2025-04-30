@@ -27,12 +27,10 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+          cache: 'pip'
 
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Install dependencies
-        run: pip install requests
+      - name: Install dependencies from requirements.txt
+        run: pip install -r requirements.txt
 
       - name: Generate Markdown for SPX J&T Cargo Sukamenak 2025-04
         run: |
@@ -61,6 +59,16 @@ jobs:
               "https://docs.google.com/spreadsheets/d/e/2PACX-1vR4LBVauC2wtIn2Ldr1tDrWTeSEDHgWl6dZ-wT-2FeQAkeExLNdt7dKgtGGiuNHXcWrFxXLsH4Q74wr/pub?gid=1223797904&single=true&output=csv" \
               "https://docs.google.com/spreadsheets/d/e/2PACX-1vR4LBVauC2wtIn2Ldr1tDrWTeSEDHgWl6dZ-wT-2FeQAkeExLNdt7dKgtGGiuNHXcWrFxXLsH4Q74wr/pub?gid=527953214&single=true&output=csv" \
               "https://docs.google.com/spreadsheets/d/e/2PACX-1vR4LBVauC2wtIn2Ldr1tDrWTeSEDHgWl6dZ-wT-2FeQAkeExLNdt7dKgtGGiuNHXcWrFxXLsH4Q74wr/pub?gid=93981574&single=true&output=csv" \
+            --table_titles "Ringkasan" "Detail Transaksi" \
+            --output_dir "_asibuka-logistics"
+
+      - name: Generate Markdown for Lazada Express J&T Cargo Sukamenak 2025-03
+        run: |
+          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
+            --csv_urls \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vR7CgElRGk8IJwNlx-RFdPYh8HaoQJJbWT5pH2VXvzEkmlDEaJ09Ub6c2u2etSIiTvvFHVihUY38Ww8/pub?gid=1223797904&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vR7CgElRGk8IJwNlx-RFdPYh8HaoQJJbWT5pH2VXvzEkmlDEaJ09Ub6c2u2etSIiTvvFHVihUY38Ww8/pub?gid=527953214&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vR7CgElRGk8IJwNlx-RFdPYh8HaoQJJbWT5pH2VXvzEkmlDEaJ09Ub6c2u2etSIiTvvFHVihUY38Ww8/pub?gid=93981574&single=true&output=csv" \
             --table_titles "Ringkasan" "Detail Transaksi" \
             --output_dir "_asibuka-logistics"
 
@@ -140,7 +148,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2.8'
-          bundler-cache: false
+          bundler-cache: true
 
       - name: Install bundler
         run: gem install bundler
