@@ -7,3 +7,4 @@ gem 'nokogiri', '>= 1.12'
 gem "tzinfo"
 gem "yaml"
 gem "fileutils"
+gem "fastimage"
