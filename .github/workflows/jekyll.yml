@@ -1,0 +1,71 @@
+name: Build and Deploy Jekyll
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2.8'
+          bundler-cache: false
+
+      - name: Install bundler
+        run: gem install bundler
+
+      - name: Add Linux platform for Bundler
+        run: bundle lock --add-platform x86_64-linux
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Build AMP version
+        run: bundle exec jekyll build
+
+      - name: Copy favicon to root
+        run: cp assets/icons/favicon.ico _site/favicon.ico
+
+      - name: Move sw.js.html to root and rename to sw.js
+        run: |
+          if [ -f _site/assets/js/sw.js.html ]; then
+            mv _site/assets/js/sw.js.html _site/sw.js
+          fi
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
