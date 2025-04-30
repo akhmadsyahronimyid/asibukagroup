@@ -20,7 +20,7 @@ keywords: "ASIBUKA, ASIBUKA Group, Bisnis, Investasi, UMKM"
 robots: "index, follow"
 baseurl: ""
 url: "https://www.asibuka.com"
-image: "https://asibuka.com/assets/img/ASIBUKA-Blue.webp"
+image: "/assets/img/ASIBUKA-Blue.webp"
 date: 2023-06-19 00:00:05
 timezone: "Asia/Jakarta"
 lang: "id"

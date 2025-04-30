@@ -21,6 +21,39 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate updated Markdown for SPX DOP Sukamenak
+        run: |
+          python python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
+            --csv_urls \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAsHmPgg6ez5otl4jR2E8BxrvWRimCR5OTfLExynsGjNV3DyLisBCeR27Z2m1ZXfRGVWSzIktTsKSP/pub?gid=1223797904&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAsHmPgg6ez5otl4jR2E8BxrvWRimCR5OTfLExynsGjNV3DyLisBCeR27Z2m1ZXfRGVWSzIktTsKSP/pub?gid=527953214&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAsHmPgg6ez5otl4jR2E8BxrvWRimCR5OTfLExynsGjNV3DyLisBCeR27Z2m1ZXfRGVWSzIktTsKSP/pub?gid=2092489212&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAsHmPgg6ez5otl4jR2E8BxrvWRimCR5OTfLExynsGjNV3DyLisBCeR27Z2m1ZXfRGVWSzIktTsKSP/pub?gid=93981574&single=true&output=csv" \
+            --table_titles "Ringkasan" "Laporan Bulanan" "Detail Transaksi" \
+            --output_dir "_asibuka-logistics"
+            
+      - name: Generate updated Markdown for J&T Cargo Zegen Express
+        run: |
+          python python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
+            --csv_urls \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQW-qVGk6-E9MRIiM-USrIglZA2BiBYx_fExSG0UM-BfV-1dQWeHsBUKvAzKqwCK1N4tRH3zAcT_ALv/pub?gid=1223797904&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQW-qVGk6-E9MRIiM-USrIglZA2BiBYx_fExSG0UM-BfV-1dQWeHsBUKvAzKqwCK1N4tRH3zAcT_ALv/pub?gid=527953214&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQW-qVGk6-E9MRIiM-USrIglZA2BiBYx_fExSG0UM-BfV-1dQWeHsBUKvAzKqwCK1N4tRH3zAcT_ALv/pub?gid=2092489212&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQW-qVGk6-E9MRIiM-USrIglZA2BiBYx_fExSG0UM-BfV-1dQWeHsBUKvAzKqwCK1N4tRH3zAcT_ALv/pub?gid=93981574&single=true&output=csv" \
+            --table_titles "Ringkasan" "Laporan Bulanan" "Detail Transaksi" \
+            --output_dir "_asibuka-logistics"
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
