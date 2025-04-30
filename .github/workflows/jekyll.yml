@@ -33,8 +33,6 @@ jobs:
 
       - name: Install dependencies
         run: pip install requests
-      
-      # SPX DOP Sukamenak
 
       - name: Generate Markdown for SPX DOP Sukamenak
         run: |
@@ -47,7 +45,7 @@ jobs:
             --table_titles "Ringkasan" "Laporan Bulanan" "Detail Transaksi" \
             --output_dir "_asibuka-logistics"
 
-      - name: Generate Markdown for SPX DOP Sukamenak 2025-04
+      - name: Generate Markdown for SPX DOP Sukamenak 2025-04 Recap
         run: |
           python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
             --csv_urls \
