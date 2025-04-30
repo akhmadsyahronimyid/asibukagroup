@@ -33,6 +33,8 @@ jobs:
 
       - name: Install dependencies
         run: pip install requests
+      
+      # SPX DOP Sukamenak
 
       - name: Generate updated Markdown for SPX DOP Sukamenak
         run: |
@@ -42,6 +44,17 @@ jobs:
               "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAsHmPgg6ez5otl4jR2E8BxrvWRimCR5OTfLExynsGjNV3DyLisBCeR27Z2m1ZXfRGVWSzIktTsKSP/pub?gid=527953214&single=true&output=csv" \
               "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAsHmPgg6ez5otl4jR2E8BxrvWRimCR5OTfLExynsGjNV3DyLisBCeR27Z2m1ZXfRGVWSzIktTsKSP/pub?gid=2092489212&single=true&output=csv" \
               "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAsHmPgg6ez5otl4jR2E8BxrvWRimCR5OTfLExynsGjNV3DyLisBCeR27Z2m1ZXfRGVWSzIktTsKSP/pub?gid=93981574&single=true&output=csv" \
+            --table_titles "Ringkasan" "Laporan Bulanan" "Detail Transaksi" \
+            --output_dir "_asibuka-logistics"
+
+      - name: Generate updated Markdown for SPX DOP Sukamenak 2025-04
+        run: |
+          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
+            --csv_urls \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vSDggv_e3_dBn6g7sBuMzODFmKbpKV4QQuLPJqC_syQ2Rt9ACURL_AHw2VeW7lJRTqFC51Ll8_kX3vS/pub?gid=1223797904&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vSDggv_e3_dBn6g7sBuMzODFmKbpKV4QQuLPJqC_syQ2Rt9ACURL_AHw2VeW7lJRTqFC51Ll8_kX3vS/pub?gid=527953214&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vSDggv_e3_dBn6g7sBuMzODFmKbpKV4QQuLPJqC_syQ2Rt9ACURL_AHw2VeW7lJRTqFC51Ll8_kX3vS/pub?gid=2092489212&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vSDggv_e3_dBn6g7sBuMzODFmKbpKV4QQuLPJqC_syQ2Rt9ACURL_AHw2VeW7lJRTqFC51Ll8_kX3vS/pub?gid=93981574&single=true&output=csv" \
             --table_titles "Ringkasan" "Laporan Bulanan" "Detail Transaksi" \
             --output_dir "_asibuka-logistics"
             
