@@ -76,6 +76,15 @@ jobs:
             --table_titles "Ringkasan" "Detail Transaksi" \
             --output_dir "_asibuka-logistics"
 
+      - name: Generate Markdown for J&T Cargo Zegen Express 2025-03
+        run: |
+          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
+            --csv_urls \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vT3IxzxEopEqFYLlvFf253W6KSmsENQOt-IVe7f-adBFr1-1hlQW3pGb7jcqB9M52JmOXRZnngXHjr0/pub?gid=1223797904&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vT3IxzxEopEqFYLlvFf253W6KSmsENQOt-IVe7f-adBFr1-1hlQW3pGb7jcqB9M52JmOXRZnngXHjr0/pub?gid=527953214&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vT3IxzxEopEqFYLlvFf253W6KSmsENQOt-IVe7f-adBFr1-1hlQW3pGb7jcqB9M52JmOXRZnngXHjr0/pub?gid=93981574&single=true&output=csv" \
+            --output_dir "_asibuka-logistics"
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
