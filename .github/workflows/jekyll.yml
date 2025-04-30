@@ -83,6 +83,27 @@ jobs:
               "https://docs.google.com/spreadsheets/d/e/2PACX-1vT3IxzxEopEqFYLlvFf253W6KSmsENQOt-IVe7f-adBFr1-1hlQW3pGb7jcqB9M52JmOXRZnngXHjr0/pub?gid=1223797904&single=true&output=csv" \
               "https://docs.google.com/spreadsheets/d/e/2PACX-1vT3IxzxEopEqFYLlvFf253W6KSmsENQOt-IVe7f-adBFr1-1hlQW3pGb7jcqB9M52JmOXRZnngXHjr0/pub?gid=527953214&single=true&output=csv" \
               "https://docs.google.com/spreadsheets/d/e/2PACX-1vT3IxzxEopEqFYLlvFf253W6KSmsENQOt-IVe7f-adBFr1-1hlQW3pGb7jcqB9M52JmOXRZnngXHjr0/pub?gid=93981574&single=true&output=csv" \
+            --table_titles "Ringkasan" "Detail Transaksi" \
+            --output_dir "_asibuka-logistics"
+
+      - name: Generate Markdown for J&T Cargo Zegen Express 2025-02
+        run: |
+          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
+            --csv_urls \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQEMmSEqrPNj345sv56NOe_NJflrTMa0g6xdjIldZYitMu8RgShPSlbjOINAhRqvsEXkME-kQrSW8IM/pub?gid=1223797904&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQEMmSEqrPNj345sv56NOe_NJflrTMa0g6xdjIldZYitMu8RgShPSlbjOINAhRqvsEXkME-kQrSW8IM/pub?gid=527953214&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQEMmSEqrPNj345sv56NOe_NJflrTMa0g6xdjIldZYitMu8RgShPSlbjOINAhRqvsEXkME-kQrSW8IM/pub?gid=93981574&single=true&output=csv" \
+            --table_titles "Ringkasan" "Detail Transaksi" \
+            --output_dir "_asibuka-logistics"
+
+      - name: Generate Markdown for J&T Cargo Zegen Express 2025-01
+        run: |
+          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
+            --csv_urls \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vTfrULCV-tO9L__eMYr3zSbu4piFcdmFsIbr9pwbN_UmwyF38FhiwOfAqIkblusPtaP3BztMvIT5Ct4/pub?gid=1223797904&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vTfrULCV-tO9L__eMYr3zSbu4piFcdmFsIbr9pwbN_UmwyF38FhiwOfAqIkblusPtaP3BztMvIT5Ct4/pub?gid=527953214&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vTfrULCV-tO9L__eMYr3zSbu4piFcdmFsIbr9pwbN_UmwyF38FhiwOfAqIkblusPtaP3BztMvIT5Ct4/pub?gid=93981574&single=true&output=csv" \
+            --table_titles "Ringkasan" "Detail Transaksi" \
             --output_dir "_asibuka-logistics"
 
       - name: Setup Ruby
