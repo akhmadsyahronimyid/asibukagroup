@@ -36,7 +36,7 @@ jobs:
 
       - name: Generate updated Markdown for SPX DOP Sukamenak
         run: |
-          python python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
+          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
             --csv_urls \
               "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAsHmPgg6ez5otl4jR2E8BxrvWRimCR5OTfLExynsGjNV3DyLisBCeR27Z2m1ZXfRGVWSzIktTsKSP/pub?gid=1223797904&single=true&output=csv" \
               "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAsHmPgg6ez5otl4jR2E8BxrvWRimCR5OTfLExynsGjNV3DyLisBCeR27Z2m1ZXfRGVWSzIktTsKSP/pub?gid=527953214&single=true&output=csv" \
@@ -47,7 +47,7 @@ jobs:
             
       - name: Generate updated Markdown for J&T Cargo Zegen Express
         run: |
-          python python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
+          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
             --csv_urls \
               "https://docs.google.com/spreadsheets/d/e/2PACX-1vQW-qVGk6-E9MRIiM-USrIglZA2BiBYx_fExSG0UM-BfV-1dQWeHsBUKvAzKqwCK1N4tRH3zAcT_ALv/pub?gid=1223797904&single=true&output=csv" \
               "https://docs.google.com/spreadsheets/d/e/2PACX-1vQW-qVGk6-E9MRIiM-USrIglZA2BiBYx_fExSG0UM-BfV-1dQWeHsBUKvAzKqwCK1N4tRH3zAcT_ALv/pub?gid=527953214&single=true&output=csv" \
