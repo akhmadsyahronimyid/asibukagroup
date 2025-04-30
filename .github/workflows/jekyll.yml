@@ -34,6 +34,16 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      - name: Generate Markdown for SPX J&T Cargo Sukamenak 2025-04
+        run: |
+          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
+            --csv_urls \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vR8tFeCUz7uY1tYWh3FNT3889xQAIZtBDKra4oUc-pGKu97bNQFUWP36udF0YU5qm-cQqdY8dM-MWNE/pub?gid=1223797904&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vR8tFeCUz7uY1tYWh3FNT3889xQAIZtBDKra4oUc-pGKu97bNQFUWP36udF0YU5qm-cQqdY8dM-MWNE/pub?gid=527953214&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vR8tFeCUz7uY1tYWh3FNT3889xQAIZtBDKra4oUc-pGKu97bNQFUWP36udF0YU5qm-cQqdY8dM-MWNE/pub?gid=93981574&single=true&output=csv" \
+            --table_titles "Ringkasan" "Detail Transaksi" \
+            --output_dir "_asibuka-logistics"
+
       - name: Generate Markdown for SPX DOP Sukamenak
         run: |
           python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
