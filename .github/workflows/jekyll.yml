@@ -36,7 +36,7 @@ jobs:
       
       # SPX DOP Sukamenak
 
-      - name: Generate updated Markdown for SPX DOP Sukamenak
+      - name: Generate Markdown for SPX DOP Sukamenak
         run: |
           python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
             --csv_urls \
@@ -47,7 +47,7 @@ jobs:
             --table_titles "Ringkasan" "Laporan Bulanan" "Detail Transaksi" \
             --output_dir "_asibuka-logistics"
 
-      - name: Generate updated Markdown for SPX DOP Sukamenak 2025-04
+      - name: Generate Markdown for SPX DOP Sukamenak 2025-04
         run: |
           python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
             --csv_urls \
@@ -58,7 +58,7 @@ jobs:
             --table_titles "Ringkasan" "Laporan Bulanan" "Detail Transaksi" \
             --output_dir "_asibuka-logistics"
             
-      - name: Generate updated Markdown for J&T Cargo Zegen Express
+      - name: Generate Markdown for J&T Cargo Zegen Express
         run: |
           python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
             --csv_urls \
