@@ -32,14 +32,15 @@ jobs:
       - name: Install dependencies from requirements.txt
         run: pip install -r requirements.txt
 
-      - name: Generate Markdown for SPX J&T Cargo Sukamenak 2025-04
+      - name: Generate Markdown for LEX J&T Cargo Sukamenak
         run: |
           python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
             --csv_urls \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vR8tFeCUz7uY1tYWh3FNT3889xQAIZtBDKra4oUc-pGKu97bNQFUWP36udF0YU5qm-cQqdY8dM-MWNE/pub?gid=1223797904&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vR8tFeCUz7uY1tYWh3FNT3889xQAIZtBDKra4oUc-pGKu97bNQFUWP36udF0YU5qm-cQqdY8dM-MWNE/pub?gid=527953214&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vR8tFeCUz7uY1tYWh3FNT3889xQAIZtBDKra4oUc-pGKu97bNQFUWP36udF0YU5qm-cQqdY8dM-MWNE/pub?gid=93981574&single=true&output=csv" \
-            --table_titles "Ringkasan" "Detail Transaksi" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQDq8FCuM_aOwilraRZcd74N5C5YWrie4Yeo18iw2EsWSpcULTIvCLZw_VnV9Z4p-H_cNwyv011xAp2/pub?gid=1223797904&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQDq8FCuM_aOwilraRZcd74N5C5YWrie4Yeo18iw2EsWSpcULTIvCLZw_VnV9Z4p-H_cNwyv011xAp2/pub?gid=527953214&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQDq8FCuM_aOwilraRZcd74N5C5YWrie4Yeo18iw2EsWSpcULTIvCLZw_VnV9Z4p-H_cNwyv011xAp2/pub?gid=2092489212&single=true&output=csv" \
+              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQDq8FCuM_aOwilraRZcd74N5C5YWrie4Yeo18iw2EsWSpcULTIvCLZw_VnV9Z4p-H_cNwyv011xAp2/pub?gid=93981574&single=true&output=csv" \
+            --table_titles "Ringkasan" "Laporan Bulanan" "Detail Transaksi" \
             --output_dir "_asibuka-logistics"
 
       - name: Generate Markdown for SPX J&T Cargo Sukamenak 2025-03
