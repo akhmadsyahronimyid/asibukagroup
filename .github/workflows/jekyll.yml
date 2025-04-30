@@ -3,6 +3,8 @@ name: Build and Deploy Jekyll
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '0 0 * * *'
 
 permissions:
   contents: write
