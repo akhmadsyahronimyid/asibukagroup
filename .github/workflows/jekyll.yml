@@ -30,6 +30,12 @@ jobs:
       - name: Install bundler
         run: gem install bundler
 
+      - name: Add Linux platform for Bundler
+        run: bundle lock --add-platform x86_64-linux
+
+      - name: Install dependencies
+        run: bundle install
+
       - name: Build Jekyll site
         run: bundle exec jekyll build
 
