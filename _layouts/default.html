@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html {% if page.is_amp %}amp {% endif %}lang="{{ page.lang | default: site.lang }}">
+<head>
+{% include layout/meta.html %}
+{% if page.is_amp %}
+<style amp-boilerplate>body{visibility:hidden;-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+<noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>{% endif %}
+{% if page.is_amp %}<style amp-custom>{% else %}<style>{% endif %}{% include style.css %}</style>
+{% unless page.collection %}
+{% include layout/json-homepage.html %}
+{% endunless %}
+{% include js/script-head.js %}
+</head>
+<body {% if page.is_amp %}[class]="visible ? 'dark' : 'light'"{% else %}class="light"{% endif %} id="top">
+{% include layout/header.html %}
+{% include layout/nav.html %}
+{% include layout/leaderboard_ads.html %}
+<div class="layout hide-on-print">
+<main aria-label="Main Wrapper" class="content-wrapper hide-on-print" id="content-wrapper">
+{{ content }}
+</main>
+{% assign column_layouts = "default,archive,static" | split: "," %}
+{% unless column_layouts contains page.layout %}{% include layout/right-sidebar.html %}{% endunless %}
+</div>
+{% if page.is_amp %}
+<amp-auto-ads type="adsense" data-ad-client="ca-pub-4951061355072034"></amp-auto-ads>
+{% endif %}
+{% include layout/noprint.html %}
+{% include layout/back_to_top.html %}
+{% unless page.is_amp %}{% include js/script-body.js %}{% endunless %}
+</body>
+</html>

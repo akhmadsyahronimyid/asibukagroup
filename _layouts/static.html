@@ -1,0 +1,11 @@
+---
+layout: default
+---
+{% include layout/breadcrumb.html %}
+<article class="hide-on-print">
+<h1 class="main-heading">{{ page.title }}</h1>
+{{ content }}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"{{ page.url }}"},"headline":"{{ page.title }}","description":"{{ page.description }}","image":"{{ page.image }}","author":{"@type":"Organization","name":"ASIBUKA Group","url":"https://www.asibuka.com"},"publisher":{"@type":"Organization","name":"ASIBUKA Group","logo":{"@type":"ImageObject","url":"https://asibuka.com/assets/img/ASIBUKA-Blue.webp"}},"datePublished":"{{ page.date | date_to_xmlschema }}","dateModified":"{{ page.date | date_to_xmlschema }}"}</script>
+</article>
+{% include layout/share-buttons.html %}
+{% if page.comments == true %}{% include layout/disqus.html %}{% endif %}

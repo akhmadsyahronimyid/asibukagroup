@@ -1,0 +1,81 @@
+---
+permalink: /sw.js
+layout: null
+---
+
+const CACHE_NAME = "jekyll-pwa-v{{ site.time | date: '%Y%m%d%H%M%S' }}";
+
+const PRECACHE_MANIFEST = [
+  {
+    url: "{{ '/' | absolute_url }}",
+    revision: "{{ site.time | date: '%s' }}"
+  },
+  {% for post in site.posts %}
+  {
+    url: "{{ post.url | absolute_url }}",
+    revision: "{{ post.date | date: '%s' }}"
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %},
+  {% assign excluded_collections = "private, drafts" | split: ", " %}
+  {% assign all_docs = "" | split: "" %}
+  {% for collection in site.collections %}
+    {% unless excluded_collections contains collection.label %}
+      {% assign all_docs = all_docs | concat: collection.docs %}
+    {% endunless %}
+  {% endfor %}
+  {% for item in all_docs %}
+  {
+    url: "{{ item.url | absolute_url }}",
+    revision: "{{ item.date | date: '%s' }}"
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %},
+  {
+    url: "{{ '/offline.html' | absolute_url }}",
+    revision: "{{ site.time | date: '%s' }}"
+  }
+];
+
+// Install: cache files
+self.addEventListener("install", event => {
+  event.waitUntil(
+    caches.open(CACHE_NAME).then(cache => {
+      return Promise.all(
+        PRECACHE_MANIFEST.map(entry => {
+          return fetch(entry.url, { cache: "reload" })
+            .then(response => {
+              if (!response.ok) throw new Error(`Request for ${entry.url} failed`);
+              return cache.put(entry.url, response);
+            });
+        })
+      );
+    }).catch(err => console.error("Install failed:", err))
+  );
+});
+
+// Fetch: try cache, fall back to network, then offline fallback
+self.addEventListener("fetch", event => {
+  event.respondWith(
+    caches.match(event.request).then(response => {
+      return response || fetch(event.request).catch(() => {
+        if (event.request.mode === "navigate") {
+          return caches.match("{{ '/offline.html' | absolute_url }}");
+        }
+      });
+    })
+  );
+});
+
+// Activate: delete old caches
+self.addEventListener("activate", event => {
+  event.waitUntil(
+    caches.keys().then(cacheNames => {
+      return Promise.all(
+        cacheNames.map(name => {
+          if (name !== CACHE_NAME) {
+            return caches.delete(name);
+          }
+        })
+      );
+    })
+  );
+});
