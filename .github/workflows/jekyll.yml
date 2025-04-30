@@ -51,9 +51,8 @@ jobs:
             --csv_urls \
               "https://docs.google.com/spreadsheets/d/e/2PACX-1vSDggv_e3_dBn6g7sBuMzODFmKbpKV4QQuLPJqC_syQ2Rt9ACURL_AHw2VeW7lJRTqFC51Ll8_kX3vS/pub?gid=1223797904&single=true&output=csv" \
               "https://docs.google.com/spreadsheets/d/e/2PACX-1vSDggv_e3_dBn6g7sBuMzODFmKbpKV4QQuLPJqC_syQ2Rt9ACURL_AHw2VeW7lJRTqFC51Ll8_kX3vS/pub?gid=527953214&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vSDggv_e3_dBn6g7sBuMzODFmKbpKV4QQuLPJqC_syQ2Rt9ACURL_AHw2VeW7lJRTqFC51Ll8_kX3vS/pub?gid=2092489212&single=true&output=csv" \
               "https://docs.google.com/spreadsheets/d/e/2PACX-1vSDggv_e3_dBn6g7sBuMzODFmKbpKV4QQuLPJqC_syQ2Rt9ACURL_AHw2VeW7lJRTqFC51Ll8_kX3vS/pub?gid=93981574&single=true&output=csv" \
-            --table_titles "Ringkasan" "Laporan Bulanan" "Detail Transaksi" \
+            --table_titles "Ringkasan" "Detail Transaksi" \
             --output_dir "_asibuka-logistics"
             
       - name: Generate Markdown for J&T Cargo Zegen Express
