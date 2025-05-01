@@ -116,7 +116,7 @@ body.dark .sidebar-footer{border-color:#444;color:#aaa}
 .right-sidebar{margin:.5rem}
 .right-sidebar > div{margin:.5rem auto}
 .right-sidebar .sticky-box{position:sticky;top:3.5rem;width:300px}
-.right-sidebar #sidebar-ads{width:300px;height:600px;overflow-y:auto;overflow-x:hidden}
+.right-sidebar #sidebar-ads{width:300px;height:500px;overflow-y:auto;overflow-x:hidden}
 {% else %}
 .content-wrapper{margin:auto .5rem}
 {% endunless %}
