@@ -53,7 +53,94 @@ function _0x5c76(_0x4c2508,_0xe477d6){const _0x1d76a1=_0x1d76();return _0x5c76=f
 {% endif %}
 /* Data Embed */
 {% if page.collection == "asibuka-logistics" %}
-/* const params=new URLSearchParams(window.location.search),embedContainer=document.getElementById("EmbedResult"),embedTitle=document.getElementById("EmbedTitle"),mainTitle=params.get("title")||"LAPORAN";mainTitle&&(document.title=mainTitle,embedTitle&&(embedTitle.textContent="",embedTitle.append(mainTitle)));const fetchAndBuild=async()=>{let a=1;const b=[];for(;;){const c=params.get("title"+a),d=params.get("id"+a),e=params.get("gid"+a);if(!c||!d||!e)break;b.push(fetch(`https://docs.google.com/spreadsheets/d/e/${d}/pub?gid=${e}&single=true&output=csv`).then(a=>a.text()).then(a=>{const b=a.trim().split("\n").map(a=>a.split(",")),d=document.createElement("h2");d.className="main-heading",d.textContent=c;const e=document.createElement("div");e.className="table-container";const f=document.createElement("table");return b.forEach((a,b)=>{const c=document.createElement("tr");a.forEach(a=>{const d=document.createElement(0===b?"th":"td");d.innerHTML=a,c.appendChild(d)}),f.appendChild(c)}),e.appendChild(f),{heading:d,container:e}}).catch(a=>{const b=document.createElement("p");return b.textContent=`Failed to load data for "${c}"`,console.error("CSV fetch error:",a),{error:b}})),a++}const c=await Promise.all(b);c.forEach(a=>{a.error?embedContainer&&embedContainer.appendChild(a.error):(embedContainer&&embedContainer.appendChild(a.heading),embedContainer&&embedContainer.appendChild(a.container))}),embedContainer&&embedContainer.removeAttribute("hidden")};"komisi-asibuka-logistics"===params.get("function")&&fetchAndBuild().then(()=>{if(document.querySelectorAll(".hide-on-embed").forEach(a=>a.remove()),window.history.replaceState){const a=window.location.origin+window.location.pathname;window.history.replaceState({},mainTitle||"",a)}}); */
-const _0x1657a5=_0x27e7;(function(_0x24ae2b,_0x56281b){const _0x3ffc57=_0x27e7,_0x138a78=_0x24ae2b();while(!![]){try{const _0x1ea0d4=-parseInt(_0x3ffc57(0x1d6))/0x1+parseInt(_0x3ffc57(0x1fc))/0x2+parseInt(_0x3ffc57(0x1e6))/0x3*(parseInt(_0x3ffc57(0x1f1))/0x4)+-parseInt(_0x3ffc57(0x1ff))/0x5*(parseInt(_0x3ffc57(0x1dd))/0x6)+parseInt(_0x3ffc57(0x1d4))/0x7*(-parseInt(_0x3ffc57(0x1e4))/0x8)+parseInt(_0x3ffc57(0x1fd))/0x9*(-parseInt(_0x3ffc57(0x1f6))/0xa)+parseInt(_0x3ffc57(0x204))/0xb*(parseInt(_0x3ffc57(0x1e9))/0xc);if(_0x1ea0d4===_0x56281b)break;else _0x138a78['push'](_0x138a78['shift']());}catch(_0x516f6f){_0x138a78['push'](_0x138a78['shift']());}}}(_0x63c4,0x42512));function _0x27e7(_0x55e90c,_0x274f05){const _0x63c466=_0x63c4();return _0x27e7=function(_0x27e7e1,_0x3ef92a){_0x27e7e1=_0x27e7e1-0x1d4;let _0x4ca447=_0x63c466[_0x27e7e1];return _0x4ca447;},_0x27e7(_0x55e90c,_0x274f05);}function _0x63c4(){const _0x311bd1=['138ihcomX','append','createElement','table-container','/pub?gid=','container','LAPORAN','8OweIyt','.hide-on-embed','366993qFNeUw','heading','trim','12oVxJWE','https://docs.google.com/spreadsheets/d/e/','getElementById','hidden','CSV\x20fetch\x20error:','get','replaceState','text','8UFOsoa','div','map','textContent','location','10dRlhEi','komisi-asibuka-logistics','catch','then','origin','table','1002242GBDZEo','439551dnOOzH','EmbedResult','49930NXQYQT','appendChild','className','forEach','title','2928805BsEqOo','1371083brniYD','error','266018wTFRIm','split','innerHTML','pathname','history','function','main-heading'];_0x63c4=function(){return _0x311bd1;};return _0x63c4();}const params=new URLSearchParams(window['location']['search']),embedContainer=document[_0x1657a5(0x1eb)](_0x1657a5(0x1fe)),embedTitle=document[_0x1657a5(0x1eb)]('EmbedTitle'),mainTitle=params[_0x1657a5(0x1ee)](_0x1657a5(0x203))||_0x1657a5(0x1e3);mainTitle&&(document['title']=mainTitle,embedTitle&&(embedTitle['textContent']='',embedTitle[_0x1657a5(0x1de)](mainTitle)));const fetchAndBuild=async()=>{const _0x231513=_0x1657a5;let _0x4f5668=0x1;const _0x21dc17=[];for(;;){const _0x2cecd3=params[_0x231513(0x1ee)]('title'+_0x4f5668),_0x4568d6=params[_0x231513(0x1ee)]('id'+_0x4f5668),_0x14d89c=params[_0x231513(0x1ee)]('gid'+_0x4f5668);if(!_0x2cecd3||!_0x4568d6||!_0x14d89c)break;_0x21dc17['push'](fetch(_0x231513(0x1ea)+_0x4568d6+_0x231513(0x1e1)+_0x14d89c+'&single=true&output=csv')[_0x231513(0x1f9)](_0x26e154=>_0x26e154[_0x231513(0x1f0)]())['then'](_0xffce97=>{const _0x3ea388=_0x231513,_0x1638b0=_0xffce97[_0x3ea388(0x1e8)]()[_0x3ea388(0x1d7)]('\x0a')[_0x3ea388(0x1f3)](_0x1a986e=>_0x1a986e[_0x3ea388(0x1d7)](',')),_0x15977e=document[_0x3ea388(0x1df)]('h2');_0x15977e[_0x3ea388(0x201)]=_0x3ea388(0x1dc),_0x15977e['textContent']=_0x2cecd3;const _0x4ec1df=document[_0x3ea388(0x1df)](_0x3ea388(0x1f2));_0x4ec1df['className']=_0x3ea388(0x1e0);const _0x3a3a6d=document[_0x3ea388(0x1df)](_0x3ea388(0x1fb));return _0x1638b0['forEach']((_0x13df65,_0x206fe6)=>{const _0x16737d=_0x3ea388,_0x51263f=document['createElement']('tr');_0x13df65[_0x16737d(0x202)](_0x58b03f=>{const _0x293642=_0x16737d,_0x28bce3=document[_0x293642(0x1df)](0x0===_0x206fe6?'th':'td');_0x28bce3[_0x293642(0x1d8)]=_0x58b03f,_0x51263f[_0x293642(0x200)](_0x28bce3);}),_0x3a3a6d[_0x16737d(0x200)](_0x51263f);}),_0x4ec1df['appendChild'](_0x3a3a6d),{'heading':_0x15977e,'container':_0x4ec1df};})[_0x231513(0x1f8)](_0x49cc2c=>{const _0xee1310=_0x231513,_0x461933=document[_0xee1310(0x1df)]('p');return _0x461933[_0xee1310(0x1f4)]='Failed\x20to\x20load\x20data\x20for\x20\x22'+_0x2cecd3+'\x22',console[_0xee1310(0x1d5)](_0xee1310(0x1ed),_0x49cc2c),{'error':_0x461933};})),_0x4f5668++;}const _0x2f954b=await Promise['all'](_0x21dc17);_0x2f954b[_0x231513(0x202)](_0x2f5f59=>{const _0x13361d=_0x231513;_0x2f5f59[_0x13361d(0x1d5)]?embedContainer&&embedContainer[_0x13361d(0x200)](_0x2f5f59[_0x13361d(0x1d5)]):(embedContainer&&embedContainer['appendChild'](_0x2f5f59[_0x13361d(0x1e7)]),embedContainer&&embedContainer[_0x13361d(0x200)](_0x2f5f59[_0x13361d(0x1e2)]));}),embedContainer&&embedContainer['removeAttribute'](_0x231513(0x1ec));};_0x1657a5(0x1f7)===params[_0x1657a5(0x1ee)](_0x1657a5(0x1db))&&fetchAndBuild()[_0x1657a5(0x1f9)](()=>{const _0x16b1db=_0x1657a5;if(document['querySelectorAll'](_0x16b1db(0x1e5))[_0x16b1db(0x202)](_0x282549=>_0x282549['remove']()),window[_0x16b1db(0x1da)][_0x16b1db(0x1ef)]){const _0x4b4541=window[_0x16b1db(0x1f5)][_0x16b1db(0x1fa)]+window[_0x16b1db(0x1f5)][_0x16b1db(0x1d9)];window[_0x16b1db(0x1da)][_0x16b1db(0x1ef)]({},mainTitle||'',_0x4b4541);}});
+/* const params = new URLSearchParams(window.location.search);
+const embedContainer = document.getElementById("EmbedResult");
+const embedTitle = document.getElementById("EmbedTitle");
+
+const mainTitle = params.get("title") || "LAPORAN";
+if (mainTitle) {
+  document.title = mainTitle;
+  if (embedTitle) {
+    embedTitle.textContent = "";
+    embedTitle.append(mainTitle);
+  }
+}
+
+const fetchAndBuild = async () => {
+  let index = 1;
+  const fetchTasks = [];
+
+  while (true) {
+    const title = params.get("title" + index);
+    const id = params.get("id" + index);
+    const gid = params.get("gid" + index);
+    if (!title || !id || !gid) break;
+
+    const csvUrl = `https://docs.google.com/spreadsheets/d/e/${id}/pub?gid=${gid}&single=true&output=csv`;
+
+    // Store each fetch operation in array
+    fetchTasks.push(
+      fetch(csvUrl)
+        .then(res => res.text())
+        .then(csv => {
+          const rows = csv.trim().split("\n").map(r => r.split(","));
+
+          const heading = document.createElement("h2");
+          heading.className = "main-heading";
+          heading.textContent = title;
+
+          const container = document.createElement("div");
+          container.className = "table-container";
+
+          const table = document.createElement("table");
+          rows.forEach((row, i) => {
+            const tr = document.createElement("tr");
+            row.forEach(cell => {
+              const cellEl = document.createElement(i === 0 ? "th" : "td");
+              cellEl.innerHTML = cell;
+              tr.appendChild(cellEl);
+            });
+            table.appendChild(tr);
+          });
+
+          container.appendChild(table);
+          return { heading, container };
+        })
+        .catch(err => {
+          const errMsg = document.createElement("p");
+          errMsg.textContent = `Failed to load data for "${title}"`;
+          console.error("CSV fetch error:", err);
+          return { error: errMsg };
+        })
+    );
+
+    index++;
+  }
+
+  const results = await Promise.all(fetchTasks);
+
+  results.forEach(result => {
+    if (result.error) {
+      embedContainer && embedContainer.appendChild(result.error);
+    } else {
+      embedContainer && embedContainer.appendChild(result.heading);
+      embedContainer && embedContainer.appendChild(result.container);
+    }
+  });
+
+  if (embedContainer) embedContainer.removeAttribute("hidden");
+};
+
+if (params.get("function") === "komisi-asibuka-logistics") {
+  fetchAndBuild().then(() => {
+    document.querySelectorAll(".hide-on-embed").forEach(el => el.remove());
+    if (window.history.replaceState) {
+      const cleanUrl = window.location.origin + window.location.pathname;
+      window.history.replaceState({}, mainTitle || "", cleanUrl);
+    }
+  });
+}
+ */
+const _0x465152=_0x1929;(function(_0x54e0ba,_0x16ece3){const _0x523a86=_0x1929,_0x2e5a6b=_0x54e0ba();while(!![]){try{const _0x4ee7bd=parseInt(_0x523a86(0x106))/0x1+parseInt(_0x523a86(0xfc))/0x2*(parseInt(_0x523a86(0xfd))/0x3)+parseInt(_0x523a86(0x10a))/0x4*(-parseInt(_0x523a86(0xe6))/0x5)+-parseInt(_0x523a86(0xdd))/0x6*(-parseInt(_0x523a86(0x104))/0x7)+parseInt(_0x523a86(0xe4))/0x8*(-parseInt(_0x523a86(0xe3))/0x9)+-parseInt(_0x523a86(0xe1))/0xa+-parseInt(_0x523a86(0xf4))/0xb*(-parseInt(_0x523a86(0xf3))/0xc);if(_0x4ee7bd===_0x16ece3)break;else _0x2e5a6b['push'](_0x2e5a6b['shift']());}catch(_0x22988b){_0x2e5a6b['push'](_0x2e5a6b['shift']());}}}(_0x18d1,0xbb846));function _0x18d1(){const _0x2f7e5b=['appendChild','1125685neMcOD','CSV\x20fetch\x20error:','catch','get','115304VsGUNZ','EmbedResult','container','/pub?gid=','textContent','remove','107244hLRtwe','text','.hide-on-embed','getElementById','3004060QfWkLn','className','54LfVJSM','830064ePiRna','komisi-asibuka-logistics','175WzFUFl','history','error','location','heading','then','push','append','div','hidden','querySelectorAll','&single=true&output=csv','forEach','12KkHlcC','13792658zDBWgi','all','createElement','function','pathname','innerHTML','LAPORAN','map','4718rgWXOV','21ZwsWXx','replaceState','trim','gid','search','EmbedTitle','split','119lZzxAi'];_0x18d1=function(){return _0x2f7e5b;};return _0x18d1();}const params=new URLSearchParams(window[_0x465152(0xe9)][_0x465152(0x101)]),embedContainer=document[_0x465152(0xe0)](_0x465152(0x10b)),embedTitle=document[_0x465152(0xe0)](_0x465152(0x102)),mainTitle=params[_0x465152(0x109)]('title')||_0x465152(0xfa);mainTitle&&(document['title']=mainTitle,embedTitle&&(embedTitle[_0x465152(0x10e)]='',embedTitle[_0x465152(0xed)](mainTitle)));function _0x1929(_0x2c63a2,_0x34e053){const _0x18d186=_0x18d1();return _0x1929=function(_0x1929e9,_0x1f65ba){_0x1929e9=_0x1929e9-0xdc;let _0x2d4d34=_0x18d186[_0x1929e9];return _0x2d4d34;},_0x1929(_0x2c63a2,_0x34e053);}const fetchAndBuild=async()=>{const _0xa683b8=_0x465152;let _0x4bab09=0x1;const _0x2a8df1=[];while(!![]){const _0x56e552=params['get']('title'+_0x4bab09),_0x5127a0=params[_0xa683b8(0x109)]('id'+_0x4bab09),_0x3f8cd6=params[_0xa683b8(0x109)](_0xa683b8(0x100)+_0x4bab09);if(!_0x56e552||!_0x5127a0||!_0x3f8cd6)break;const _0x7f8c36='https://docs.google.com/spreadsheets/d/e/'+_0x5127a0+_0xa683b8(0x10d)+_0x3f8cd6+_0xa683b8(0xf1);_0x2a8df1[_0xa683b8(0xec)](fetch(_0x7f8c36)[_0xa683b8(0xeb)](_0x571b5a=>_0x571b5a[_0xa683b8(0xde)]())[_0xa683b8(0xeb)](_0x24db9b=>{const _0x167cb2=_0xa683b8,_0x4e0b89=_0x24db9b[_0x167cb2(0xff)]()[_0x167cb2(0x103)]('\x0a')[_0x167cb2(0xfb)](_0x25f5a4=>_0x25f5a4['split'](',')),_0x4b088f=document[_0x167cb2(0xf6)]('h2');_0x4b088f['className']='main-heading',_0x4b088f['textContent']=_0x56e552;const _0x21ce4c=document['createElement'](_0x167cb2(0xee));_0x21ce4c[_0x167cb2(0xe2)]='table-container';const _0x14a90e=document[_0x167cb2(0xf6)]('table');return _0x4e0b89[_0x167cb2(0xf2)]((_0x2de8fe,_0x3fef45)=>{const _0x47b214=_0x167cb2,_0x141776=document[_0x47b214(0xf6)]('tr');_0x2de8fe['forEach'](_0x4426d9=>{const _0x59c3c2=_0x47b214,_0x10fc70=document['createElement'](_0x3fef45===0x0?'th':'td');_0x10fc70[_0x59c3c2(0xf9)]=_0x4426d9,_0x141776[_0x59c3c2(0x105)](_0x10fc70);}),_0x14a90e[_0x47b214(0x105)](_0x141776);}),_0x21ce4c[_0x167cb2(0x105)](_0x14a90e),{'heading':_0x4b088f,'container':_0x21ce4c};})[_0xa683b8(0x108)](_0x7699b9=>{const _0x437e2d=_0xa683b8,_0x2542db=document[_0x437e2d(0xf6)]('p');return _0x2542db[_0x437e2d(0x10e)]='Failed\x20to\x20load\x20data\x20for\x20\x22'+_0x56e552+'\x22',console['error'](_0x437e2d(0x107),_0x7699b9),{'error':_0x2542db};})),_0x4bab09++;}const _0x48d1f2=await Promise[_0xa683b8(0xf5)](_0x2a8df1);_0x48d1f2[_0xa683b8(0xf2)](_0x5f40f6=>{const _0x488306=_0xa683b8;_0x5f40f6[_0x488306(0xe8)]?embedContainer&&embedContainer['appendChild'](_0x5f40f6['error']):(embedContainer&&embedContainer[_0x488306(0x105)](_0x5f40f6[_0x488306(0xea)]),embedContainer&&embedContainer[_0x488306(0x105)](_0x5f40f6[_0x488306(0x10c)]));});if(embedContainer)embedContainer['removeAttribute'](_0xa683b8(0xef));};params['get'](_0x465152(0xf7))===_0x465152(0xe5)&&fetchAndBuild()[_0x465152(0xeb)](()=>{const _0x5d5247=_0x465152;document[_0x5d5247(0xf0)](_0x5d5247(0xdf))['forEach'](_0x5c5031=>_0x5c5031[_0x5d5247(0xdc)]());if(window[_0x5d5247(0xe7)][_0x5d5247(0xfe)]){const _0x4f78ce=window['location']['origin']+window[_0x5d5247(0xe9)][_0x5d5247(0xf8)];window['history'][_0x5d5247(0xfe)]({},mainTitle||'',_0x4f78ce);}});
 {% endif %}
 </script>
