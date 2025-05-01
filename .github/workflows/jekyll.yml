@@ -36,17 +36,6 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: rm -rf _site .jekyll-cache _asibuka-logistics
 
-      - name: Generate Markdown for SPX DOP Sukamenak
-        run: |
-          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
-            --csv_urls \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAsHmPgg6ez5otl4jR2E8BxrvWRimCR5OTfLExynsGjNV3DyLisBCeR27Z2m1ZXfRGVWSzIktTsKSP/pub?gid=1223797904&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAsHmPgg6ez5otl4jR2E8BxrvWRimCR5OTfLExynsGjNV3DyLisBCeR27Z2m1ZXfRGVWSzIktTsKSP/pub?gid=527953214&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAsHmPgg6ez5otl4jR2E8BxrvWRimCR5OTfLExynsGjNV3DyLisBCeR27Z2m1ZXfRGVWSzIktTsKSP/pub?gid=2092489212&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAsHmPgg6ez5otl4jR2E8BxrvWRimCR5OTfLExynsGjNV3DyLisBCeR27Z2m1ZXfRGVWSzIktTsKSP/pub?gid=93981574&single=true&output=csv" \
-            --table_titles 'Ringkasan' 'Laporan Bulanan' 'Detail Transaksi' \
-            --output_dir '_asibuka-logistics'
-
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:

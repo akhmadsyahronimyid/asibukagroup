@@ -102,6 +102,7 @@ defaults:
       comments: false
       sitemap: false
       toc: false
+      csv_table_function: true
   - scope:
       path: ""
       type: "webtools"
