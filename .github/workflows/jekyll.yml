@@ -32,86 +32,9 @@ jobs:
       - name: Install dependencies from requirements.txt
         run: pip install -r requirements.txt
 
-      - name: Generate Markdown for SPX J&T Cargo Sukamenak Periode 2025-5
-        run: |
-          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
-            --csv_urls \
-              'https://docs.google.com/spreadsheets/d/e/2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0/pub?gid=330957355&single=true&output=csv' \
-              'https://docs.google.com/spreadsheets/d/e/2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0/pub?gid=499285548&single=true&output=csv' \
-              'https://docs.google.com/spreadsheets/d/e/2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0/pub?gid=2124279933&single=true&output=csv' \
-            --table_titles 'Ringkasan' 'Detail Transaksi' \
-            --output_dir '_asibuka-logistics'
-      - name: Generate Markdown for SPX DOP Sukamenak Periode 2025-5
-        run: |
-          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
-            --csv_urls \
-              'https://docs.google.com/spreadsheets/d/e/2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0/pub?gid=876162549&single=true&output=csv' \
-              'https://docs.google.com/spreadsheets/d/e/2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0/pub?gid=265557075&single=true&output=csv' \
-              'https://docs.google.com/spreadsheets/d/e/2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0/pub?gid=799901051&single=true&output=csv' \
-            --table_titles 'Ringkasan' 'Detail Transaksi' \
-            --output_dir '_asibuka-logistics'
-            
-      - name: Generate Markdown for LEX J&T Cargo Sukamenak
-        run: |
-          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
-          --csv_urls \
-            "https://docs.google.com/spreadsheets/d/e/2PACX-1vQDq8FCuM_aOwilraRZcd74N5C5YWrie4Yeo18iw2EsWSpcULTIvCLZw_VnV9Z4p-H_cNwyv011xAp2/pub?gid=1223797904&single=true&output=csv" \
-            "https://docs.google.com/spreadsheets/d/e/2PACX-1vQDq8FCuM_aOwilraRZcd74N5C5YWrie4Yeo18iw2EsWSpcULTIvCLZw_VnV9Z4p-H_cNwyv011xAp2/pub?gid=527953214&single=true&output=csv" \
-            "https://docs.google.com/spreadsheets/d/e/2PACX-1vQDq8FCuM_aOwilraRZcd74N5C5YWrie4Yeo18iw2EsWSpcULTIvCLZw_VnV9Z4p-H_cNwyv011xAp2/pub?gid=2092489212&single=true&output=csv" \
-            "https://docs.google.com/spreadsheets/d/e/2PACX-1vQDq8FCuM_aOwilraRZcd74N5C5YWrie4Yeo18iw2EsWSpcULTIvCLZw_VnV9Z4p-H_cNwyv011xAp2/pub?gid=93981574&single=true&output=csv" \
-          --table_titles "Ringkasan" "Laporan Bulanan" "Detail Transaksi" \
-          --output_dir "_asibuka-logistics"
-
-      - name: Generate Markdown for Lazada Express J&T Cargo Sukamenak 2025-04
-        run: |
-          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
-            --csv_urls \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vR4LBVauC2wtIn2Ldr1tDrWTeSEDHgWl6dZ-wT-2FeQAkeExLNdt7dKgtGGiuNHXcWrFxXLsH4Q74wr/pub?gid=1223797904&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vR4LBVauC2wtIn2Ldr1tDrWTeSEDHgWl6dZ-wT-2FeQAkeExLNdt7dKgtGGiuNHXcWrFxXLsH4Q74wr/pub?gid=527953214&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vR4LBVauC2wtIn2Ldr1tDrWTeSEDHgWl6dZ-wT-2FeQAkeExLNdt7dKgtGGiuNHXcWrFxXLsH4Q74wr/pub?gid=93981574&single=true&output=csv" \
-            --table_titles "Ringkasan" "Detail Transaksi" \
-            --output_dir "_asibuka-logistics"
-
-      - name: Generate Markdown for Lazada Express J&T Cargo Sukamenak 2025-03
-        run: |
-          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
-            --csv_urls \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vR7CgElRGk8IJwNlx-RFdPYh8HaoQJJbWT5pH2VXvzEkmlDEaJ09Ub6c2u2etSIiTvvFHVihUY38Ww8/pub?gid=1223797904&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vR7CgElRGk8IJwNlx-RFdPYh8HaoQJJbWT5pH2VXvzEkmlDEaJ09Ub6c2u2etSIiTvvFHVihUY38Ww8/pub?gid=527953214&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vR7CgElRGk8IJwNlx-RFdPYh8HaoQJJbWT5pH2VXvzEkmlDEaJ09Ub6c2u2etSIiTvvFHVihUY38Ww8/pub?gid=93981574&single=true&output=csv" \
-            --table_titles "Ringkasan" "Detail Transaksi" \
-            --output_dir "_asibuka-logistics"
-
-      - name: Generate Markdown for SPX J&T Cargo Sukamenak
-        run: |
-          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
-            --csv_urls \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vTGOvH2g943bllIbskT1xRR2sXYtlRk_qj_REZnIun1pD64QtY8EmO1IU0R700mwPfs_8Na6xHGGGSZ/pub?gid=1223797904&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vTGOvH2g943bllIbskT1xRR2sXYtlRk_qj_REZnIun1pD64QtY8EmO1IU0R700mwPfs_8Na6xHGGGSZ/pub?gid=527953214&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vTGOvH2g943bllIbskT1xRR2sXYtlRk_qj_REZnIun1pD64QtY8EmO1IU0R700mwPfs_8Na6xHGGGSZ/pub?gid=2092489212&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vTGOvH2g943bllIbskT1xRR2sXYtlRk_qj_REZnIun1pD64QtY8EmO1IU0R700mwPfs_8Na6xHGGGSZ/pub?gid=93981574&single=true&output=csv" \
-            --table_titles "Ringkasan" "Laporan Bulanan" "Detail Transaksi" \
-            --output_dir "_asibuka-logistics"
-
-      - name: Generate Markdown for SPX J&T Cargo Sukamenak 2025-04
-        run: |
-          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
-            --csv_urls \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vR8tFeCUz7uY1tYWh3FNT3889xQAIZtBDKra4oUc-pGKu97bNQFUWP36udF0YU5qm-cQqdY8dM-MWNE/pub?gid=1223797904&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vR8tFeCUz7uY1tYWh3FNT3889xQAIZtBDKra4oUc-pGKu97bNQFUWP36udF0YU5qm-cQqdY8dM-MWNE/pub?gid=527953214&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vR8tFeCUz7uY1tYWh3FNT3889xQAIZtBDKra4oUc-pGKu97bNQFUWP36udF0YU5qm-cQqdY8dM-MWNE/pub?gid=93981574&single=true&output=csv" \
-            --table_titles "Ringkasan" "Detail Transaksi" \
-            --output_dir "_asibuka-logistics"
-
-      - name: Generate Markdown for SPX J&T Cargo Sukamenak 2025-03
-        run: |
-          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
-            --csv_urls \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxLqwmu3uaO1D3B4iuRQ4Vbak02z28j-IpLAyUBX-t8i6MVCo-MmbKOvhs0OBjA9E8_zkba1aya5mt/pub?gid=1223797904&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxLqwmu3uaO1D3B4iuRQ4Vbak02z28j-IpLAyUBX-t8i6MVCo-MmbKOvhs0OBjA9E8_zkba1aya5mt/pub?gid=527953214&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxLqwmu3uaO1D3B4iuRQ4Vbak02z28j-IpLAyUBX-t8i6MVCo-MmbKOvhs0OBjA9E8_zkba1aya5mt/pub?gid=93981574&single=true&output=csv" \
-            --table_titles "Ringkasan" "Detail Transaksi" \
-            --output_dir "_asibuka-logistics"
+      - name: Clean ONLY if no cache is used
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: rm -rf _site .jekyll-cache _asibuka-logistics
 
       - name: Generate Markdown for SPX DOP Sukamenak
         run: |
@@ -121,75 +44,22 @@ jobs:
               "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAsHmPgg6ez5otl4jR2E8BxrvWRimCR5OTfLExynsGjNV3DyLisBCeR27Z2m1ZXfRGVWSzIktTsKSP/pub?gid=527953214&single=true&output=csv" \
               "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAsHmPgg6ez5otl4jR2E8BxrvWRimCR5OTfLExynsGjNV3DyLisBCeR27Z2m1ZXfRGVWSzIktTsKSP/pub?gid=2092489212&single=true&output=csv" \
               "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAsHmPgg6ez5otl4jR2E8BxrvWRimCR5OTfLExynsGjNV3DyLisBCeR27Z2m1ZXfRGVWSzIktTsKSP/pub?gid=93981574&single=true&output=csv" \
-            --table_titles "Ringkasan" "Laporan Bulanan" "Detail Transaksi" \
-            --output_dir "_asibuka-logistics"
-
-      - name: Generate Markdown for SPX DOP Sukamenak 2025-04
-        run: |
-          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
-            --csv_urls \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vSDggv_e3_dBn6g7sBuMzODFmKbpKV4QQuLPJqC_syQ2Rt9ACURL_AHw2VeW7lJRTqFC51Ll8_kX3vS/pub?gid=1223797904&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vSDggv_e3_dBn6g7sBuMzODFmKbpKV4QQuLPJqC_syQ2Rt9ACURL_AHw2VeW7lJRTqFC51Ll8_kX3vS/pub?gid=527953214&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vSDggv_e3_dBn6g7sBuMzODFmKbpKV4QQuLPJqC_syQ2Rt9ACURL_AHw2VeW7lJRTqFC51Ll8_kX3vS/pub?gid=93981574&single=true&output=csv" \
-            --table_titles "Ringkasan" "Detail Transaksi" \
-            --output_dir "_asibuka-logistics"
-            
-      - name: Generate Markdown for J&T Cargo Zegen Express
-        run: |
-          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
-            --csv_urls \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQW-qVGk6-E9MRIiM-USrIglZA2BiBYx_fExSG0UM-BfV-1dQWeHsBUKvAzKqwCK1N4tRH3zAcT_ALv/pub?gid=1223797904&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQW-qVGk6-E9MRIiM-USrIglZA2BiBYx_fExSG0UM-BfV-1dQWeHsBUKvAzKqwCK1N4tRH3zAcT_ALv/pub?gid=527953214&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQW-qVGk6-E9MRIiM-USrIglZA2BiBYx_fExSG0UM-BfV-1dQWeHsBUKvAzKqwCK1N4tRH3zAcT_ALv/pub?gid=2092489212&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQW-qVGk6-E9MRIiM-USrIglZA2BiBYx_fExSG0UM-BfV-1dQWeHsBUKvAzKqwCK1N4tRH3zAcT_ALv/pub?gid=93981574&single=true&output=csv" \
-            --table_titles "Ringkasan" "Laporan Bulanan" "Detail Transaksi" \
-            --output_dir "_asibuka-logistics"
-            
-      - name: Generate Markdown for J&T Cargo Zegen Express 2025-04
-        run: |
-          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
-            --csv_urls \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vS97nukwrKSgt6gOZ0OQjoJOxyQaTX0NOX14LEGkCw_SeYtcbjYSyXXj01cJdScUQCx6Imxtq18n781/pub?gid=1223797904&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vS97nukwrKSgt6gOZ0OQjoJOxyQaTX0NOX14LEGkCw_SeYtcbjYSyXXj01cJdScUQCx6Imxtq18n781/pub?gid=527953214&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vS97nukwrKSgt6gOZ0OQjoJOxyQaTX0NOX14LEGkCw_SeYtcbjYSyXXj01cJdScUQCx6Imxtq18n781/pub?gid=93981574&single=true&output=csv" \
-            --table_titles "Ringkasan" "Detail Transaksi" \
-            --output_dir "_asibuka-logistics"
-
-      - name: Generate Markdown for J&T Cargo Zegen Express 2025-03
-        run: |
-          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
-            --csv_urls \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vT3IxzxEopEqFYLlvFf253W6KSmsENQOt-IVe7f-adBFr1-1hlQW3pGb7jcqB9M52JmOXRZnngXHjr0/pub?gid=1223797904&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vT3IxzxEopEqFYLlvFf253W6KSmsENQOt-IVe7f-adBFr1-1hlQW3pGb7jcqB9M52JmOXRZnngXHjr0/pub?gid=527953214&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vT3IxzxEopEqFYLlvFf253W6KSmsENQOt-IVe7f-adBFr1-1hlQW3pGb7jcqB9M52JmOXRZnngXHjr0/pub?gid=93981574&single=true&output=csv" \
-            --table_titles "Ringkasan" "Detail Transaksi" \
-            --output_dir "_asibuka-logistics"
-
-      - name: Generate Markdown for J&T Cargo Zegen Express 2025-02
-        run: |
-          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
-            --csv_urls \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQEMmSEqrPNj345sv56NOe_NJflrTMa0g6xdjIldZYitMu8RgShPSlbjOINAhRqvsEXkME-kQrSW8IM/pub?gid=1223797904&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQEMmSEqrPNj345sv56NOe_NJflrTMa0g6xdjIldZYitMu8RgShPSlbjOINAhRqvsEXkME-kQrSW8IM/pub?gid=527953214&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vQEMmSEqrPNj345sv56NOe_NJflrTMa0g6xdjIldZYitMu8RgShPSlbjOINAhRqvsEXkME-kQrSW8IM/pub?gid=93981574&single=true&output=csv" \
-            --table_titles "Ringkasan" "Detail Transaksi" \
-            --output_dir "_asibuka-logistics"
-
-      - name: Generate Markdown for J&T Cargo Zegen Express 2025-01
-        run: |
-          python assets/python_scripts/google_sheets_to_table_mitra_asibuka_logistics.py \
-            --csv_urls \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vTfrULCV-tO9L__eMYr3zSbu4piFcdmFsIbr9pwbN_UmwyF38FhiwOfAqIkblusPtaP3BztMvIT5Ct4/pub?gid=1223797904&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vTfrULCV-tO9L__eMYr3zSbu4piFcdmFsIbr9pwbN_UmwyF38FhiwOfAqIkblusPtaP3BztMvIT5Ct4/pub?gid=527953214&single=true&output=csv" \
-              "https://docs.google.com/spreadsheets/d/e/2PACX-1vTfrULCV-tO9L__eMYr3zSbu4piFcdmFsIbr9pwbN_UmwyF38FhiwOfAqIkblusPtaP3BztMvIT5Ct4/pub?gid=93981574&single=true&output=csv" \
-            --table_titles "Ringkasan" "Detail Transaksi" \
-            --output_dir "_asibuka-logistics"
+            --table_titles 'Ringkasan' 'Laporan Bulanan' 'Detail Transaksi' \
+            --output_dir '_asibuka-logistics'
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2.8'
           bundler-cache: true
+
+      - name: Cache Ruby gems
+        uses: actions/cache@v4
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
 
       - name: Install bundler
         run: gem install bundler
@@ -198,7 +68,9 @@ jobs:
         run: bundle lock --add-platform x86_64-linux
 
       - name: Install dependencies
-        run: bundle install
+        run:  |
+          bundle config set path 'vendor/bundle'
+          bundle install --jobs 4 --retry 3
 
       - name: Build Jekyll site
         run: bundle exec jekyll build
