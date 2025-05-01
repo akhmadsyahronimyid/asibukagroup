@@ -9,7 +9,6 @@ keywords: ASIBUKA, ASIBUKA Group
 robots: noindex,nofollow
 author: ASIBUKA Group
 lang: id
-csvtablefunction: true
 ---
 <div class='table-container'>
 <table>

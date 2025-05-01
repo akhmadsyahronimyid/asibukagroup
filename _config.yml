@@ -102,7 +102,6 @@ defaults:
       comments: false
       sitemap: false
       toc: false
-      csvtablefunction: true
   - scope:
       path: ""
       type: "webtools"
