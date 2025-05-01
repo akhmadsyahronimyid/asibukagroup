@@ -53,7 +53,7 @@ collections:
     permalink: /produk/:title/
   asibuka-logistics:
     output: true
-    permalink: /:name/
+    permalink: /:title/
   webtools:
     output: true
     permalink: /alat/:title/
