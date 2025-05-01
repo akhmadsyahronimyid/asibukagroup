@@ -32,10 +32,6 @@ jobs:
       - name: Install dependencies from requirements.txt
         run: pip install -r requirements.txt
 
-      - name: Clean ONLY if no cache is used
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: rm -rf _site .jekyll-cache _asibuka-logistics
-
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
