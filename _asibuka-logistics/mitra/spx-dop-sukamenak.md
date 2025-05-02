@@ -19,5 +19,9 @@ lang: id
 <td>2025-05</td>
 <td><a class='btn block' title='Lihat Laporan' href='{{ page.permalink | replace: "/amp/", "" }}?function=komisi-asibuka-logistics&title=SPX%20DOP%20Sukamenak%20Periode%202025-5&title1=Ringkasan&id1=2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0&gid1=499285548&title2=Transaksi&id2=2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0&gid2=799901051'>Lihat Laporan</a></td>
 </tr>
+<tr>
+<td>2025-04</td>
+<td><a class='btn block' title='Lihat Laporan' href='{{ page.permalink | replace: "/amp/", "" }}?function=komisi-asibuka-logistics&title=SPX%20DOP%20Sukamenak%20Periode%202025-5&title1=Ringkasan&id1=2PACX-1vRZQRuTGgKyhNgXwz0wGfAjiHrKJ4uKnfZ2wxC4ODCGBqX6wAk_scVHo-uJfezV2s7No2F4FNM05XNg&gid1=1098642254&title2=Transaksi&id2=2PACX-1vRZQRuTGgKyhNgXwz0wGfAjiHrKJ4uKnfZ2wxC4ODCGBqX6wAk_scVHo-uJfezV2s7No2F4FNM05XNg&gid2=799901051'>Lihat Laporan</a></td>
+</tr>
 </table>
 </div>
