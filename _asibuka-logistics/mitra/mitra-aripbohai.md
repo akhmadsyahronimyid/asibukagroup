@@ -21,7 +21,7 @@ lang: id
 </tr>
 <tr>
 <td>2025-04</td>
-<td><a class='btn block' title='Lihat Laporan' href='{{ page.permalink | replace: "/amp/", "" }}?function=komisi-asibuka-logistics&title=Mitra%20-%20Saripudin%20SiCepat%20Periode%202025-5&title1=Ringkasan&id1=2PACX-1vRZQRuTGgKyhNgXwz0wGfAjiHrKJ4uKnfZ2wxC4ODCGBqX6wAk_scVHo-uJfezV2s7No2F4FNM05XNg&gid1=265557075'>Lihat Laporan</a></td>
+<td><a class='btn block' title='Lihat Laporan' href='{{ page.permalink | replace: "/amp/", "" }}?function=komisi-asibuka-logistics&title=Mitra%20-%20Saripudin%20SiCepat%20Periode%202025-4&title1=Ringkasan&id1=2PACX-1vRZQRuTGgKyhNgXwz0wGfAjiHrKJ4uKnfZ2wxC4ODCGBqX6wAk_scVHo-uJfezV2s7No2F4FNM05XNg&gid1=265557075'>Lihat Laporan</a></td>
 </tr>
 </table>
 </div>
