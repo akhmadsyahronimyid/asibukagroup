@@ -23,5 +23,9 @@ lang: id
 <td>2025-04</td>
 <td><a class='btn block' title='Lihat Laporan' href='{{ page.permalink | replace: "/amp/", "" }}?function=komisi-asibuka-logistics&title=VIP%20-%20FANKAY%20Periode%202025-4&title1=Ringkasan&id1=2PACX-1vRUSev-p6MPZbJ1-2OwkyACe4InaBBoTAD0FYwUQD-45vNLx6D2-8ePjjKTn-EQkn7Mz9EsJKF179SS&gid1=988975454'>Lihat Laporan</a></td>
 </tr>
+<tr>
+<td>2025-03</td>
+<td><a class='btn block' title='Lihat Laporan' href='{{ page.permalink | replace: "/amp/", "" }}?function=komisi-asibuka-logistics&title=VIP%20-%20FANKAY%20Periode%202025-3&title1=Ringkasan&id1=2PACX-1vQdhehZydJ_urNZp2umjfqwE_UrU6TSYOEZ4hkQ9qVPGNoXWC61uzfgqPw5NCIWZ8hsKJqEFbrzUCyw&gid1=988975454'>Lihat Laporan</a></td>
+</tr>
 </table>
 </div>
