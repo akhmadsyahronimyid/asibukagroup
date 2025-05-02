@@ -21,7 +21,7 @@ lang: id
 </tr>
 <tr>
 <td>2025-04</td>
-<td><a class='btn block' title='Lihat Laporan' href='{{ page.permalink | replace: "/amp/", "" }}?function=komisi-asibuka-logistics&title=JNT%20Cargo%20Zegen%20Express%20Periode%202025-4&title1=Ringkasan&id1=2PACX-1vRZQRuTGgKyhNgXwz0wGfAjiHrKJ4uKnfZ2wxC4ODCGBqX6wAk_scVHo-uJfezV2s7No2F4FNM05XNg&gid1=53424333&title2=Transaksi&id2=2PACX-1vRZQRuTGgKyhNgXwz0wGfAjiHrKJ4uKnfZ2wxC4ODCGBqX6wAk_scVHo-uJfezV2s7No2F4FNM05XNg&gid2=1844579586'>Lihat Laporan</a></td>
+<td><a class='btn block' title='Lihat Laporan' href='{{ page.permalink | replace: "/amp/", "" }}?function=komisi-asibuka-logistics&title=JNT%20Cargo%20Zegen%20Express%20Periode%202025-4&title1=Ringkasan&id1=2PACX-1vRUSev-p6MPZbJ1-2OwkyACe4InaBBoTAD0FYwUQD-45vNLx6D2-8ePjjKTn-EQkn7Mz9EsJKF179SS&gid1=53424333&title2=Transaksi&id2=2PACX-1vRUSev-p6MPZbJ1-2OwkyACe4InaBBoTAD0FYwUQD-45vNLx6D2-8ePjjKTn-EQkn7Mz9EsJKF179SS&gid2=1844579586'>Lihat Laporan</a></td>
 </tr>
 </table>
 </div>
