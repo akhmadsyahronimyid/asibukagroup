@@ -2,9 +2,9 @@
 layout: asibuka-logistics
 title: "Cashback VIP Client: BEDDO"
 date: 2025-05-02 00:00:04
-permalink: /mitra/vip-beddo/
+permalink: /client/beddo/
 image: https://www.asibuka.com/assets/img/ASIBUKA-Blue.webp
-description: Daftar Laporan Cashback per bulan dari VIP Client: BEDDO.
+description: Daftar Laporan Cashback per bulan dari VIP Client - BEDDO.
 keywords: ASIBUKA, ASIBUKA Group
 robots: noindex,nofollow
 author: ASIBUKA Group
