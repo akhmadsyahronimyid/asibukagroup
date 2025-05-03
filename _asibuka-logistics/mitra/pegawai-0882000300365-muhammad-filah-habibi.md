@@ -10,6 +10,7 @@ robots: noindex,nofollow
 author: ASIBUKA Group
 lang: id
 ---
+
 <div class='table-container'>
 <table>
 <tr>
