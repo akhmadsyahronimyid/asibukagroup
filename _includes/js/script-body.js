@@ -33,6 +33,8 @@ Defer.dom('.sharethis', 100, 'loaded', function(){Defer.js('https://platform-api
 {% endif %}
 {% assign column_layouts = "default,archive,static" | split: "," %}
 {% unless column_layouts contains page.layout %}
+/* HillTopAds Ad */
+Defer.dom(".hilltopads-300x250-banner-ad",100,"loaded",function(){(function(a){var b=document,c=b.createElement("script"),d=b.scripts[b.scripts.length-1];c.settings=a||{},c.src="//mediocrebrilliant.com/bXX.VnsCd/GJlz0lYzWDcq/cenmT9/uDZgU/lKk/PTTTY/zYMuDJEKyDMmzvIvtrNXjsM/wPMlT/I/zvM/ws",c.async=!0,c.referrerPolicy="no-referrer-when-downgrade",d.parentNode.insertBefore(c,d)})({}),console.info("HillTopAds 300x250 Banner ad is loaded.")},{rootMargin:"150%"});
 /* ClickAdilla Ad */
 Defer.dom(".clickadilla-300x250-banner-ad",100,"loaded",function(){var b=document.createElement("script");b.src="https://js.wpadmngr.com/static/adManager.js",b.setAttribute("data-admpid","323807"),document.body.appendChild(b),console.info("ClickAdilla 300x250 Banner ad is loaded.")},{rootMargin:"150%"});
 /* Yllix Ad */
