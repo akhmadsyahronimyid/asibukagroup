@@ -1,10 +1,10 @@
 ---
 layout: asibuka-logistics
-title: Rekap Gaji Pegawai - Muhammad Filah Habibi
+title: Rekap Pegawai - Muhammad Filah Habibi
 date: 2025-05-03 00:00:04
 permalink: /pegawai/0882000300365-muhammad-filah-habibi/
 image: https://www.asibuka.com/assets/img/ASIBUKA-Blue.webp
-description: Daftar rekapitulasi gaji per bulan untuk Muhammad Filah Habibi.
+description: Daftar rekapitulasi gaji dan performa  per bulan untuk Muhammad Filah Habibi.
 keywords: ASIBUKA, ASIBUKA Group
 robots: noindex,nofollow
 author: ASIBUKA Group
