@@ -42,6 +42,8 @@ Defer.dom(".yllix-300x250-banner-ad",100,"loaded",function(b){console.info("Ylli
 /* Evadav Ad */
 Defer.dom(".evadav-native-one-column-ad",100,"loaded",function(b){var a=document.createElement("script");a.src="https://curoax.com/na/waWQiOjExOTc4NzksInNpZCI6MTQ2MDQwOSwid2lkIjo3MDU5ODYsInNyYyI6Mn0=eyJ.js",b.appendChild(a),console.info("Evadav one column native ad is loaded.")},{rootMargin:"150%"});
 Defer.dom(".evadav-native-four-columns-ad",100,"loaded",function(b){var a=document.createElement("script");a.src="https://curoax.com/na/waWQiOjExOTc4NzksInNpZCI6MTQ2MDQwOSwid2lkIjo3MTA5NzgsInNyYyI6Mn0=eyJ.js",b.appendChild(a),console.info("Evadav four columns native ad is loaded.")},{rootMargin:"150%"});
+/* Adsterra Ad */
+Defer.dom(".adsterra-300x250-banner-ad",100,"loaded",function(c){var b=document.createElement("script");b.src="www.highperformanceformat.com/6a0bf86bb4a27e1fdf72b88f3b82befc/invoke.js",c.appendChild(b),console.info("Evadav one column native ad is loaded."),atOptions={key:"6a0bf86bb4a27e1fdf72b88f3b82befc",format:"iframe",height:250,width:300,params:{}}},{rootMargin:"150%"});
 {% endunless %}
 {% if page.comments == true %}
 /* Disqus */
