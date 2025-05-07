@@ -45,15 +45,18 @@ collections:
   pages:
     output: true
     permalink: /:title/
-  statics:
+  ad-networks:
     output: true
-    permalink: /page/:title/
-  products:
-    output: true
-    permalink: /produk/:title/
+    permalink: /ad-networks/:title/
   asibuka-logistics:
     output: true
     permalink: /:title/
+  products:
+    output: true
+    permalink: /produk/:title/
+  statics:
+    output: true
+    permalink: /page/:title/
   webtools:
     output: true
     permalink: /alat/:title/
