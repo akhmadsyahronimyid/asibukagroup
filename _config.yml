@@ -95,6 +95,12 @@ defaults:
       comments: false
   - scope:
       path: ""
+      type: "ad-networks"
+    values:
+      layout: "post"
+      lang: "id"
+  - scope:
+      path: ""
       type: "asibuka-logistics"
     values:
       layout: "asibuka-logistics"
