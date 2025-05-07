@@ -34,7 +34,7 @@ Defer.dom('.sharethis', 100, 'loaded', function(){Defer.js('https://platform-api
 {% assign column_layouts = "default,archive,static" | split: "," %}
 {% unless column_layouts contains page.layout %}
 /* A-Ads Ad */
-Defer.dom(".a-ads-300x250-banner-ad",1000,"loaded",function(b){const a = Object.assign(document.createElement('iframe'), {src: '//ad.a-ads.com/2393358?size=300x250',dataset: { aa: '2393358' },style: 'width:300px; height:250px; border:0; padding:0; overflow:hidden; background-color:transparent;'});a.appendChild(b);console.info("A-Ads 300x250 Banner ad is loaded.")},{rootMargin:"150%"});
+Defer.dom(".a-ads-300x250-banner-ad",1000,"loaded",function(b){const a = document.createElement('iframe');a.setAttribute('data-aa', '2393358');a.src = '//ad.a-ads.com/2393358?size=300x250';a.style.width = '300px';a.style.height = '250px';a.style.border = '0px';a.style.padding = '0';a.style.overflow = 'hidden';a.style.backgroundColor = 'transparent';a.appendChild(b);console.info("A-Ads 300x250 Banner ad is loaded.")},{rootMargin:"150%"});
 /* AdSterra Ad */
 Defer.dom(".adsterra-native-banner-ad",1000,"loaded",function(){var a=document.createElement("script");a.src="https://pl26580330.profitableratecpm.com/3a8af385fa8e48ff32763f504553414b/invoke.js",document.body.appendChild(a),console.info("Adsterra Native Banner ad is loaded.")},{rootMargin:"150%"});
 /* HillTopAds Ad */
