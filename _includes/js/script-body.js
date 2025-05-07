@@ -33,6 +33,8 @@ Defer.dom('.sharethis', 100, 'loaded', function(){Defer.js('https://platform-api
 {% endif %}
 {% assign column_layouts = "default,archive,static" | split: "," %}
 {% unless column_layouts contains page.layout %}
+/* AdSterra Ad */
+Defer.dom(".adsterra-native-banner-ad",1000,"loaded",function(){var a=document.createElement("script");a.src="https://pl26580330.profitableratecpm.com/3a8af385fa8e48ff32763f504553414b/invoke.js",document.body.appendChild(a),console.info("Adsterra Native Banner ad is loaded.")},{rootMargin:"150%"});
 /* HillTopAds Ad */
 Defer.dom(".hilltopads-300x250-banner-ad",100,"loaded",function(a){var b=document.createElement("script");b.src="//mediocrebrilliant.com/bXX.VnsCd/GJlz0lYzWDcq/cenmT9/uDZgU/lKk/PTTTY/zYMuDJEKyDMmzvIvtrNXjsM/wPMlT/I/zvM/ws",b.setAttribute("referrerPolicy","no-referrer-when-downgrade"),a.appendChild(b),console.info("HillTopAds 300x250 Banner ad is loaded.")},{rootMargin:"150%"});
 /* ClickAdilla Ad */
