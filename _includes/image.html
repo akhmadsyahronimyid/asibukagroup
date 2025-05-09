@@ -4,11 +4,10 @@
 {% else %}
 <img itemprop="contentUrl" src="{{ include.src | default: 'https://asibuka.com/assets/img/ASIBUKA-Blue.webp' }}" title="{{ include.title | default: 'image' }}" alt="{{ include.title | default: 'image' }}" width="{{ include.width | default: '1600' }}" height="{{ include.height | default: '900' }}">
 {% endif %}
-<span itemprop="creator" itemtype="https://schema.org/Person" itemscope><meta itemprop="name" content="ASIBUKA Group" /></span>
+<span itemprop="creator author" itemtype="https://schema.org/Organization" itemscope><meta itemprop="name" content="ASIBUKA Group" /></span>
 <meta itemprop="url" content="{{ include.src | default: 'https://asibuka.com/assets/img/ASIBUKA-Blue.webp' }}" />
 <meta itemprop="width" content="{{ include.width | default: '1600' }}" />
 <meta itemprop="height" content="{{ include.height | default: '900' }}" />
-<meta itemprop="author" content="ASIBUKA Group" />
 <meta itemprop="description" content="{{ include.title | default: 'image' }}" />
 <meta itemprop="license" content="https://www.asibuka.com/hak-cipta/" />
 <meta itemprop="creditText copyrightNotice acquireLicensePage" content="https://www.asibuka.com/hak-cipta/" />
