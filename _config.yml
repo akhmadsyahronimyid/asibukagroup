@@ -41,16 +41,16 @@ permalink: /:title/
 collections:
   posts:
     output: true
-    permalink: /:title/
   pages:
     output: true
-    permalink: /:title/
-  asibuka-logistics:
-    output: true
-    permalink: /:title/
   statics:
     output: true
-    permalink: /page/:title/
+  ad-networks:
+    output: true
+  asibuka-logistics:
+    output: true
+  webtools:
+    output: true
 # ------------------------------
 # Default Value
 # ------------------------------
