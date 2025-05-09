@@ -4,6 +4,7 @@ title: Arsip
 description: Kumpulan artikel yang diurutkan berdasakan arsip terpilih.
 robots: index, follow
 ---
+{% unless page.is_amp %}
 <h1 class='main-heading'>
 {% if page.type == "month" %}
 {% assign url_parts = page.url | split: '/' %}
@@ -98,6 +99,7 @@ title="{{ post.title }}">
 </article>
 {% endfor %}
 </div>
+{% endunless %}
 {% else %}
 {% if page.is_amp %}
 <h1 class="main-heading">Mohon Maaf!</h1>
