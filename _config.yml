@@ -102,6 +102,8 @@ sameAs:
 nav_links:
   Beranda: "/"
   Blog: "/blog/"
+  Informasi Resmi: "/page/"
+  Produk: "/produk/"
   Hak Cipta: "/page/hak-cipta/"
   Hubungi Kami: "/page/hubungi-kami/"
   Kebijakan Privasi: "/page/kebijakan-privasi/"

@@ -2,20 +2,20 @@
 layout: null
 permalink: /search.json
 ---
-{% assign excluded_collections = "asibuka-logistics, drafts, private" | split: ", " %}
+{% assign target_collections = "statics, products" | split: ", " %}
 {% assign custom_docs = "" | split: "" %}
 
 {%- for collection in site.collections -%}
-  {%- unless excluded_collections contains collection.label or collection.label == "posts" or collection.label == "pages" -%}
+  {%- if target_collections contains collection.label -%}
     {% assign custom_docs = custom_docs | concat: collection.docs %}
-  {%- endunless -%}
+  {%- endif -%}
 {%- endfor -%}
 
-{% assign raw_items = site.posts | concat: custom_docs | concat: site.pages %}
-{% assign filtered_items = raw_items | reject: "search", false %}
+{%- assign raw_items = site.posts | concat: custom_docs -%}
+{%- assign filtered_items = raw_items | reject: "search", false -%}
 
-{%- assign unique_urls = "" | split: "" %}
-{%- assign final_items = "" | split: "" %}
+{%- assign unique_urls = "" | split: "" -%}
+{%- assign final_items = "" | split: "" -%}
 
 {%- for item in filtered_items -%}
   {%- unless unique_urls contains item.url -%}
