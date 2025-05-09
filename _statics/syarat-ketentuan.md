@@ -103,7 +103,7 @@ Tanpa persetujuan dan izin tertulis sebelumnya, Anda tidak boleh membuat bingkai
 Kami tidak akan bertanggung jawab atas konten apa pun yang muncul di Situs Web Anda. Anda setuju untuk melindungi dan membela kami dari semua klaim yang muncul di Situs Web Anda. Tidak boleh ada tautan yang muncul di Situs Web mana pun yang dapat ditafsirkan sebagai fitnah, cabul, atau kriminal, atau yang melanggar, jika tidak, melanggar, atau mendukung pelanggaran atau pelanggaran lain terhadap, hak pihak ketiga mana pun.
 
 ## Privasi Anda
-Silakan baca **[Kebijakan Privasi](/kebijakan-privasi/)**.
+Silakan baca **[Kebijakan Privasi](/page/kebijakan-privasi/)**.
 
 ## Reservasi Hak
 Kami berhak meminta Anda menghapus semua tautan atau tautan tertentu ke Situs Web kami. Anda menyetujui untuk segera menghapus semua tautan ke Situs Web kami berdasarkan permintaan. Kami juga berhak untuk mengubah syarat dan ketentuan ini dan kebijakan tautannya kapan saja. Dengan terus menautkan ke Situs Web kami, Anda setuju untuk terikat dan mengikuti syarat dan ketentuan penautan ini.
