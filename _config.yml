@@ -38,9 +38,19 @@ permalink: /:title/
 # ------------------------------
 # 🗂 Collections
 # ------------------------------
-#collections:
-#  posts:
-#    output: true
+collections:
+  posts:
+    output: true
+  ad-networks:
+    output: true
+  asibuka-logistics:
+    output: true
+  products:
+    output: true
+  statics:
+    output: true
+  webtools:
+    output: true
 # ------------------------------
 # Default Value
 # ------------------------------
