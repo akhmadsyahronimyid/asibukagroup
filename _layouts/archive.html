@@ -69,6 +69,7 @@ robots: index, follow
 {% endif %}
 {% endif %}
 </h1>
+{% endunless %}
 {% if page.posts and page.posts != empty %}
 <div class='post-containers' itemscope itemtype="https://schema.org/ItemList">
 {% for post in page.posts %}
@@ -99,7 +100,6 @@ title="{{ post.title }}">
 </article>
 {% endfor %}
 </div>
-{% endunless %}
 {% else %}
 {% if page.is_amp %}
 <h1 class="main-heading">Mohon Maaf!</h1>
