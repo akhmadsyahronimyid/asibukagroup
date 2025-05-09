@@ -26,7 +26,7 @@ toc: false
 <a href="{{ post.url }}" title="{{ post.title }}" itemprop="name">{{ post.title }}</a>
 </h2>
 <p class="author">
-<strong>Author:</strong> <span itemprop="author">{{ post.author }}</span>
+<strong>Author:</strong> <span itemprop="author" itemtype="https://schema.org/Organization" itemscope><span itemprop="name">{{ post.author }}</span></span>
 </p>
 <p class="summary" itemprop="description">{{ post.description }}</p>
 </div>
