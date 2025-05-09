@@ -16,7 +16,8 @@ author: ASIBUKA Group
     <tr>
       <th>Judul</th>
       <th>Penulis</th>
-      <th>Tanggal</th>
+      <th>Tahun</th>
+      <th>Bulan</th>
       <th>Kategori</th>
       <th>Tags</th>
     </tr>
@@ -38,10 +39,13 @@ author: ASIBUKA Group
     
     {% for post in all_docs %}
       {% if post.title and post.search != false %}
+        {% assign post_year = post.date | date: "%Y" %}
+        {% assign post_month = post.date | date: "%m" %}
         <tr>
           <td><a href='{{ post.url }}' title='{{ post.title }}'>{{ post.title }}</a></td>
           <td>{{ post.author | default: "Unknown" }}</td>
-          <td>{{ post.date | date: "%B %d, %Y" }}</td>
+          <td><a href='/{{ post_year }}/' title='{{ post_year }}'>{{ post_year }}</a></td>
+          <td><a href='/{{ post_year }}/{{ post_month }}/' title='{{ post_month }}'>{{ post.date | date: "%B" }}</a></td>
           <td>{{ post.categories | join: ", " }}</td>
           <td>{{ post.tags | join: ", " }}</td>
         </tr>
