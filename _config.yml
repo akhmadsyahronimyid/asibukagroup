@@ -101,6 +101,7 @@ sameAs:
 # ------------------------------
 nav_links:
   Beranda: "/"
+  Cari: "/search/"
   Blog: "/blog/"
   Informasi Resmi: "/page/"
   Produk: "/produk/"
