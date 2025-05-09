@@ -45,21 +45,12 @@ collections:
   pages:
     output: true
     permalink: /:title/
-  ad-networks:
-    output: true
-    permalink: /ad-networks/:title/
   asibuka-logistics:
     output: true
     permalink: /:title/
-  products:
-    output: true
-    permalink: /produk/:title/
   statics:
     output: true
     permalink: /page/:title/
-  webtools:
-    output: true
-    permalink: /alat/:title/
 # ------------------------------
 # Default Value
 # ------------------------------
@@ -98,24 +89,12 @@ defaults:
       comments: false
   - scope:
       path: ""
-      type: "ad-networks"
-    values:
-      layout: "post"
-      lang: "id"
-  - scope:
-      path: ""
       type: "asibuka-logistics"
     values:
       layout: "asibuka-logistics"
       is_amp: false
       comments: false
       sitemap: false
-      toc: false
-  - scope:
-      path: ""
-      type: "webtools"
-    values:
-      layout: "default"
       toc: false
 # ------------------------------
 # 🌐 Markdown Settings
