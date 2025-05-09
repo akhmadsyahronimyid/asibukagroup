@@ -46,6 +46,7 @@ module Jekyll
       amp_data = original.data.dup
       amp_data['is_amp'] = true
       amp_data['permalink'] = original.url.sub(/\/$/, '') + '/amp/'
+      amp_data['sitemap'] = false
 
       basename = File.basename(original.path, File.extname(original.path))
       amp_filename = "#{basename}-amp.md"
@@ -66,6 +67,7 @@ module Jekyll
       amp_data = original.data.dup
       amp_data['is_amp'] = true
       amp_data['permalink'] = original.url.sub(/\/$/, '') + '/amp/'
+      amp_data['sitemap'] = false
 
       amp_page = PageWithoutAFile.new(site, site.source, original.dir, 'index-amp.html')
       amp_output_with_toc = insert_toc(original.output, original)
