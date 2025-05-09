@@ -23,7 +23,7 @@ Terminologi berikut berlaku untuk Syarat dan Ketentuan ini, Pernyataan Privasi d
 Semua istilah mengacu pada penawaran, penerimaan, dan pertimbangan pembayaran yang diperlukan untuk melakukan proses bantuan kami kepada Klien dengan cara yang paling tepat untuk tujuan yang jelas dalam memenuhi kebutuhan Klien sehubungan dengan penyediaan layanan yang dinyatakan Perusahaan, sesuai dengan dan tunduk pada, hukum yang berlaku di Belanda. Setiap penggunaan terminologi di atas atau kata-kata lain dalam bentuk tunggal, jamak, huruf besar dan/atau dia, dianggap dapat dipertukarkan dan oleh karena itu mengacu pada yang sama.
 
 ## Cookies
-Kami menerapkan penggunaan _cookie_. Dengan mengakses ASIBUKA, Anda setuju untuk menggunakan _cookie_ sesuai dengan [Kebijakan Privasi](/kebijakan-privasi/) ASIBUKA.
+Kami menerapkan penggunaan _cookie_. Dengan mengakses ASIBUKA, Anda setuju untuk menggunakan _cookie_ sesuai dengan [Kebijakan Privasi](/page/kebijakan-privasi/) ASIBUKA.
 
 Sebagian besar situs web interaktif menggunakan _cookie_ untuk memungkinkan kami mengambil detail pengguna untuk setiap kunjungan. _Cookie_ digunakan oleh situs web kami untuk mengaktifkan fungsionalitas area tertentu untuk memudahkan orang mengunjungi situs web kami. Beberapa mitra afiliasi/iklan kami juga dapat menggunakan _cookie_.
 

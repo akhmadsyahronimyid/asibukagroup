@@ -12,7 +12,7 @@ author: ASIBUKA Group
 ---
 Di semua web ASIBUKA, salah satu hal yang kami prioritaskan adalah privasi pengunjung. Kebijakan Privasi ini mengandung jenis-jenis informasi yang dikumpulkan dan dicatat oleh web ASIBUKA dan bagaimana kami menggunakannya.
 
-Jika kamu ada pertanyaan atau butuh informasi lebih lanjut mengenai Kebijakan Privasi kami, jangan sungkan untuk menghubungi kami. Kamu dapat menemukan informasi detail cara menghubungi kami melalui halaman **[Contact](https://asibuka.com/hubungi-kami/)**.
+Jika kamu ada pertanyaan atau butuh informasi lebih lanjut mengenai Kebijakan Privasi kami, jangan sungkan untuk menghubungi kami. Kamu dapat menemukan informasi detail cara menghubungi kami melalui halaman **[Contact](https://asibuka.com/page/hubungi-kami/)**.
 
 ## Log Files
 ASIBUKA mengikuti prosedur standar dalam menggunakan informasi _log files_. Files ini mulai tercatat semenjak pengunjung memasuki web ini. Semua perusahaan hosting dan beberapa jasa analisa melakukan ini. Informasi yang diakses oleh _log files_ ini berupa alamat internet protokol (IP), jenis browser, dan _Internet Service Provider_ (ISP), tanggal kunjungan, lama kunjungan, sumber kunjungan, dan tujuan saat keluar dari web ASIBUKA, dan kemungkinan jumlah klik dari pengguna. Informasi-informasi ini tidak berhubungan dengan data pribadi pengguna. Tujuan dari pengambilan informasi ini adalah untuk menganalisa trend pasar, administrasi situs, mengidentifikasi kegiatan pengguna selama berada di situs, dan mengumpulkan informasi demografik.
@@ -85,4 +85,4 @@ Data yang kami kirimkan dan ditautkan ke _cookie_ pihak pertama yang dihasilkan 
 Anda dapat mencegah Histats mengumpulkan data apa pun di situs web ini dan situs web lain yang menggunakan layanan Histats.com dengan mengatur _cookie opt-out_.
 
 ## Persetujuan
-Dengan menggunakan situs web kami, Anda dengan ini menyetujui Kebijakan Privasi kami dan menyetujui [Syarat dan Ketentuan](/syarat-ketentuan/).
+Dengan menggunakan situs web kami, Anda dengan ini menyetujui Kebijakan Privasi kami dan menyetujui [Syarat dan Ketentuan](/page/syarat-ketentuan/).
