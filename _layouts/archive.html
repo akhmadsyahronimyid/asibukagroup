@@ -99,5 +99,12 @@ title="{{ post.title }}">
 {% endfor %}
 </div>
 {% else %}
+{% if page.is_amp %}
+<h1 class="main-heading">Mohon Maaf!</h1>
+<p>Arsip tidak dapat di akses melalui mode AMP.</p>
+<p>Silahkan tekan tombol di bawah untuk masuk ke mode orisinil.</p>
+<a href="{{ page.url | replace:'/amp/','/' }}" class="btn block" title="Non AMP">Halaman Orisinil</a>
+{% else %}
 <p>Tidak ada konten di arsip ini.</p>
+{% endif %}
 {% endif %}
