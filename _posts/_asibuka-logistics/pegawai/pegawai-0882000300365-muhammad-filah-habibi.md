@@ -9,6 +9,10 @@ keywords: ASIBUKA, ASIBUKA Group
 robots: noindex,nofollow
 author: ASIBUKA Group
 lang: id
+is_amp: false
+comments: false
+sitemap: false
+toc: false
 ---
 
 <div class='table-container'>

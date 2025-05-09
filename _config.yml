@@ -41,16 +41,6 @@ permalink: /:title/
 collections:
   posts:
     output: true
-  pages:
-    output: true
-  statics:
-    output: true
-  ad-networks:
-    output: true
-  asibuka-logistics:
-    output: true
-  webtools:
-    output: true
 # ------------------------------
 # Default Value
 # ------------------------------
@@ -69,33 +59,6 @@ defaults:
       lang: "id"
       is_amp: false
       comments: true
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-      author: "ASIBUKA Group"
-      lang: "id"
-      is_amp: false
-      comments: false
-  - scope:
-      path: ""
-      type: "statics"
-    values:
-      layout: "default"
-      author: "ASIBUKA Group"
-      lang: "id"
-      is_amp: false
-      comments: false
-  - scope:
-      path: ""
-      type: "asibuka-logistics"
-    values:
-      layout: "asibuka-logistics"
-      is_amp: false
-      comments: false
-      sitemap: false
-      toc: false
 # ------------------------------
 # 🌐 Markdown Settings
 # ------------------------------
