@@ -1,5 +1,12 @@
-<footer aria-label='Credit Section' id='credit-wrapper' itemscope itemtype='https://www.schema.org/WPFooter' class="sidebar-footer">
-    <meta content='#credit-wrapper' itemprop='cssSelector'>
-    <p><span itemprop='copyrightYear'></span>2023</span>-{{ site.time | date: "%Y" }} © <a href='{{ site.url }}' itemprop='url' title='{{ site.title }}'><span itemprop='copyrightHolder name alternateName publisher'>{{ site.author }}</span></a>.</p>
-    <p><span itemprop='copyrightNotice'>Hak Cipta Dilindungi.</span></p>
+<footer aria-label='Credit Section' id='credit-wrapper' itemscope itemtype='https://schema.org/WPFooter' class="sidebar-footer">
+<meta content='#credit-wrapper' itemprop='cssSelector'>
+<p>
+<span itemprop='copyrightYear'>2023-{{ site.time | date: "%Y" }}</span> © 
+<a href='{{ site.url }}' itemprop='url' title='{{ site.title }}' itemscope itemtype='https://schema.org/Organization'>
+<span itemprop='name'>{{ site.author }}</span>
+</a>.
+</p>
+<p>
+<span itemprop='copyrightNotice'>Hak Cipta Dilindungi.</span>
+</p>
 </footer>
