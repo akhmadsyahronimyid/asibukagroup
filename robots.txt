@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /mitra/
 Disallow: /assets/
+Disallow: /offline.html
 Sitemap: https://www.asibuka.com/sitemap.xml
