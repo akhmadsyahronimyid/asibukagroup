@@ -22,11 +22,11 @@ toc: false
 </a>
 </div>
 <div class="post-content">
-<h2>
-<a href="{{ post.url }}" title="{{ post.title }}" itemprop="name">{{ post.title }}</a>
-</h2>
-<p class="author">
-<strong>Author:</strong> <span itemprop="author" itemtype="https://schema.org/Organization" itemscope><span itemprop="name">{{ post.author }}</span></span>
+<a href="{{ post.url }}" title="{{ post.title }}">
+<h2 itemprop="name">{{ post.title }}</h2>
+</a>
+<p class="author" itemprop="author creator" itemtype="https://schema.org/Organization" itemscope>
+<strong>Author:</strong> <span itemprop="name">{{ post.author }}</span>
 </p>
 <p class="summary" itemprop="description">{{ post.description }}</p>
 </div>
