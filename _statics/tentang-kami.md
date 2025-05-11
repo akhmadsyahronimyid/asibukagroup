@@ -46,25 +46,3 @@ ASIBUKA Group didirikan pada tahun 2023 oleh Akhmad Syahroni di Indonesia, ASIBU
 <h2 class='main-heading'>Program Kami</h2>
 
 ### 1. ASIBUKA Logistics
-
-ASIBUKA Logistics adalah salah satu proyek yang dikelola oleh ASIBUKA Group. ASIBUKA Logistics secara spesifik mengelola usaha yang bergerak di bidang logistik dan pengiriman barang.
-
-Selain itu, ASIBUKA Logistics juga menawarkan jasa pengiriman paket-paket E-Commerce sehingga dapat bekerjasama dengan pegiat usaha online.
-
-#### Partner ASIBUKA Logistics
-
-Hingga saat ini, ASIBUKA Logistics telah bekerja sama dengan beberapa usaha logistik seperti:
-
-1. J&T Cargo Sukamenak
-2. SiCepat Point Sukamenak
-3. Wahana Express Gg. Bah Awa
-4. ID Express Sukamenak
-5. SPX Margahayu Kopo Sayati
-6. LEX Margahayu Kopo Sayati
-7. AnterAja Kab. Bandung
-8. -ongoing-
-
-#### Target ASIBUKA Logistics
-ASIBUKA Logistics punya satu tujuan utama yang ingin dicapai, yaitu:
-
-> **Setiap partner dari ASIBUKA Logistics dapat mencapai target yang diharapkan dan dapat membuka lapangan kerja seluas-luasnya.**
