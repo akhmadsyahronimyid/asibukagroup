@@ -2,7 +2,7 @@
 layout: asibuka-logistics
 title: "ASIBUKA Logistics"
 date: 2025-05-11 00:00:04
-permalink: /asibuka-logistics
+permalink: /asibuka-logistics/
 image: https://www.asibuka.com/assets/img/ASIBUKA-Blue.webp
 description: Detail tentang ASIBUKA Logistics serta hal-hal terkait program ASIBUKA Logistics sebagai salah satu bisnis dari ASIBUKA Group.
 keywords: ASIBUKA, ASIBUKA Group
