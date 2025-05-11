@@ -69,15 +69,6 @@ Hingga saat ini, ASIBUKA Logistics telah bekerja sama dengan beberapa usaha logi
 <button class="nav-button nav-right">&#8250;</button>
 </div>
 
-1. J&T Cargo Sukamenak
-2. SiCepat Point Sukamenak
-3. Wahana Express Gg. Bah Awa
-4. ID Express Sukamenak
-5. SPX Margahayu Kopo Sayati
-6. LEX Margahayu Kopo Sayati
-7. AnterAja Kab. Bandung
-8. -ongoing-
-
 <h2 class='main-heading'>Tujuan</h2>
 
 ASIBUKA Logistics punya satu tujuan utama yang ingin dicapai, yaitu:
