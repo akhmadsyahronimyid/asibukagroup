@@ -20,6 +20,31 @@ Selain itu, ASIBUKA Logistics juga menawarkan jasa pengiriman paket-paket E-Comm
 
 Hingga saat ini, ASIBUKA Logistics telah bekerja sama dengan beberapa usaha logistik seperti:
 
+<div class="slider-container">
+<button class="nav-button nav-left">&#8249;</button>
+<div class="slider">
+    <div class="card">
+    <a href='https://maps.app.goo.gl/4mPsHAxknydrmPUU9' target='_blank' rel='nofollow noopener noreferrer' title='J&T Cargo Sukamenak'>{% include image-lazy.html src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkuNvEq-TqTzQNLFP1rtpCa4e8Wnw5LcYtdAT0Igt4fHkwc974AzaLLZ29E_tEhlS27_GRy8XiJaO0n2xM0ddXAGjFeMA_WDQadfjkauPh7jZAonoBVvra-LGCj5Sd_SHJ2mqoCibW62d3Yd0SXqcVPkHb-Tnet3k24ZTK1uqyBjhW5rSsZ6FG2RVF2rOt/s0-rw/jnt-cargo.png' title='logo' layout='responsive' width='800' height='800' %}</a>
+    <div class="card-content">
+    <div class="card-title"><a href='https://maps.app.goo.gl/4mPsHAxknydrmPUU9' title='J&T Cargo Sukamenak'>J&T Cargo Sukamenak</a></div>
+    </div>
+    </div>
+    <div class="card">
+    <a href='https://maps.app.goo.gl/4mPsHAxknydrmPUU9' target='_blank' rel='nofollow noopener noreferrer' title='ID Express Sukamenak'>{% include image-lazy.html src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEnSI5gJ2xmM3TAkMvmHfDdqK5V5YoyFpg7Zn1OWQf_YMZmmZXYNuTdWEGtZSMh2vGGJcBG4KOfvCwere0LQURuv8eFwJWta-HcfhAwRLslMs-o9knp_NDBeUto1ppqnajvOVejiZPVZ-o48VcT4HRqVnQzf1gkxboC8lV9pTwv_h7t6ZRV-1htT50wX2Q/s0-rw/id-express.png' title='logo' layout='responsive' width='800' height='800' %}</a>
+    <div class="card-content">
+    <div class="card-title"><a href='https://maps.app.goo.gl/4mPsHAxknydrmPUU9' title='ID Express Sukamenak'>ID Express Sukamenak</a></div>
+    </div>
+    </div>
+    <div class="card">
+    <a href='https://maps.app.goo.gl/4mPsHAxknydrmPUU9' target='_blank' rel='nofollow noopener noreferrer' title='SiCepat Express'>{% include image-lazy.html src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnw_SSWTmsNy5DRpWbKtL-S3RinfoHjqZFjF6GgZOtmvImGLH9yyrpIU2ukGDjgzw2qK5Mcw7up_2YZxEsMWKaFmAFe8pcAhrsISJHzWZ_-0NxzVDLcGA5pqEdf3rT0aXbEYg6jtPtKyQwgT1w2gv-hAgSuCinIcnav5Klz_SqWHgy6_HIxzh6-o8HZ16j/s0-rw/sicepat-express.png' title='logo' layout='responsive' width='800' height='800' %}</a>
+    <div class="card-content">
+    <div class="card-title"><a href='https://maps.app.goo.gl/4mPsHAxknydrmPUU9' title='SiCepat Express Sukamenak'>SiCepat Express Sukamenak</a></div>
+    </div>
+    </div>
+</div>
+<button class="nav-button nav-right">&#8250;</button>
+</div>
+
 1. J&T Cargo Sukamenak
 2. SiCepat Point Sukamenak
 3. Wahana Express Gg. Bah Awa
