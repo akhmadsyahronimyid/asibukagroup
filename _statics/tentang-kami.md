@@ -43,7 +43,10 @@ ASIBUKA Group didirikan pada tahun 2023 oleh Akhmad Syahroni di Indonesia, ASIBU
 > ### Membina dan Mengembangkan Talenta Muda
 > Kami berdedikasi untuk mendorong pertumbuhan talenta muda, membekali mereka dengan keterampilan dan pengetahuan yang diperlukan untuk berkembang di dunia kerja, berkontribusi pada kesuksesan bisnis, dan menjadi anggota yang bernilai bagi komunitas mereka.
 
-<h2 class='main-heading'>Program Kami</h2>
+<h2 class='main-heading'>Pilar Bisnis Kami</h2>
+
+Berikut adalah beberapa bisnis utama dari ASIBUKA Group.
+
 <div class="slider-container">
 <button class="nav-button nav-left">&#8249;</button>
 <div class="slider">
@@ -54,9 +57,15 @@ ASIBUKA Group didirikan pada tahun 2023 oleh Akhmad Syahroni di Indonesia, ASIBU
 </div>
 </div>
 <div class="card">
-<a href='/asibuka-logistics/' title='ASIBUKA Logistics'>{% include image-lazy.html src='https://asibuka.com/assets/img/ASIBUKA-Blue.webp' title='logo' layout='responsive' width='800' height='800' %}</a>
+<a href='/blog/' title='ASIBUKA Blog'>{% include image-lazy.html src='https://asibuka.com/assets/img/ASIBUKA-Blue.webp' title='logo' layout='responsive' width='800' height='800' %}</a>
 <div class="card-content">
-<div class="card-title"><a href='/asibuka-logistics/' title='ASIBUKA Logistics'>ASIBUKA Logistics</a></div>
+<div class="card-title"><a href='/blog/' title='ASIBUKA Blog'>ASIBUKA Blog</a></div>
+</div>
+</div>
+<div class="card">
+<a href='#' title='ASIBUKA Store'>{% include image-lazy.html src='https://asibuka.com/assets/img/ASIBUKA-Blue.webp' title='logo' layout='responsive' width='800' height='800' %}</a>
+<div class="card-content">
+<div class="card-title"><a href='#' title='ASIBUKA Store'>ASIBUKA Store</a></div>
 </div>
 </div>
 </div>
