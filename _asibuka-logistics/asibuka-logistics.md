@@ -41,6 +41,18 @@ Hingga saat ini, ASIBUKA Logistics telah bekerja sama dengan beberapa usaha logi
     <div class="card-title"><a href='https://maps.app.goo.gl/4mPsHAxknydrmPUU9' title='SiCepat Express Sukamenak'>SiCepat Express Sukamenak</a></div>
     </div>
     </div>
+    <div class="card">
+    <a href='https://maps.app.goo.gl/mGKSRfWy7PR9MffA9' target='_blank' rel='nofollow noopener noreferrer' title='Wahana Express Gg. Bah Awa'>{% include image-lazy.html src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrtGUeqhQBf6arGeJ4pW752SyqbEip13tRH4iEPHUcuk1Fi8O0aVNfPmoriWFVRWzT6diXpFa_SImC8vxNXpTwHB_qTjB-ZMSeBtNmGm00Nn3Uzyq6_hlZoiG98aicw6S02mWd0xcwYb7h28g3-cSoruE0A9fjkbNjgogiUkCxjOTEvWn8uVWUjeQqj1Cw/s0-rw/wahana-express.png' title='logo' layout='responsive' width='800' height='800' %}</a>
+    <div class="card-content">
+    <div class="card-title"><a href='https://maps.app.goo.gl/4mPsHAxknydrmPUU9' title='Wahana Express Gg. Bah Awa'>Wahana Express Gg. Bah Awa</a></div>
+    </div>
+    </div>
+    <div class="card">
+    <a href='https://maps.app.goo.gl/XV5kpB6BQpn8BKoo9' target='_blank' rel='nofollow noopener noreferrer' title='SPX Margahayu Kopo Sayati'>{% include image-lazy.html src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgveiB9Ki0aTbRgHSSEUFwvlasiw6DGY728wBQqdrWFzmy8tB15VlGJ3fmEF3irghcEO0dbJLlOtHCtL5BHl2DjCOMCeC9Cdu1hNrR2Ki7iqBtaIi0OC8YU68ZUpQM908qEFl6tWYt3kFe5nwu47a5mYqySEYIngR3y3rUg6TvmpFAV6On3UslD7LyKHJT/s0-rw/spx-express.png' title='logo' layout='responsive' width='800' height='800' %}</a>
+    <div class="card-content">
+    <div class="card-title"><a href='https://maps.app.goo.gl/XV5kpB6BQpn8BKoo9' title='SPX Margahayu Kopo Sayati'>SPX Margahayu Kopo Sayati</a></div>
+    </div>
+    </div>
 </div>
 <button class="nav-button nav-right">&#8250;</button>
 </div>
