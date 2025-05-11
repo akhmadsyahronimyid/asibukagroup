@@ -266,6 +266,10 @@ body.dark .text-to-mp3 label{color:#bbb}
 .slider-container .nav-button{position:absolute;top:50%;transform:translateY(-50%);background:#fffc;border:none;cursor:pointer;padding:8px;border-radius:50%;font-size:1.2rem;box-shadow:0 2px 5px #0003;z-index:1}
 .slider-container .nav-left{left:-10px}
 .slider-container .nav-right{right:-10px}
+body.dark .slider-container .card{background:#1e1e1e;box-shadow:0 4px 10px #0006}
+body.dark .slider-container .card-title{color:#f1f1f1}
+body.dark .slider-container .card-price{color:#ccc}
+body.dark .slider-container .nav-button{background:#333c;color:#f0f0f0;box-shadow:0 2px 5px #0008}
 {% endif %}
 /* Media Queries */
 @media (min-width: 769px){
