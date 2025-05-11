@@ -44,5 +44,10 @@ ASIBUKA Group didirikan pada tahun 2023 oleh Akhmad Syahroni di Indonesia, ASIBU
 > Kami berdedikasi untuk mendorong pertumbuhan talenta muda, membekali mereka dengan keterampilan dan pengetahuan yang diperlukan untuk berkembang di dunia kerja, berkontribusi pada kesuksesan bisnis, dan menjadi anggota yang bernilai bagi komunitas mereka.
 
 <h2 class='main-heading'>Program Kami</h2>
-
-### 1. ASIBUKA Logistics
+<div class="slider-container">
+<button class="nav-button nav-left">&#8249;</button>
+<div class="slider">
+    <div class="card"><img src="https://www.asibuka.com/assets/img/ASIBUKA-Blue.webp" alt=""><div class="card-content"><div class="card-title">ASIBUKA Logistics</div></div></div>
+    </div>
+    <button class="nav-button nav-right">&#8250;</button>
+</div>
