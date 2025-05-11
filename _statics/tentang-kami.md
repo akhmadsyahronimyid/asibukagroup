@@ -49,14 +49,14 @@ ASIBUKA Group didirikan pada tahun 2023 oleh Akhmad Syahroni di Indonesia, ASIBU
 <div class="slider">
 <div class="card">
 <a href='/asibuka-logistics/' title='ASIBUKA Logistics'>{% include image-lazy.html src='https://asibuka.com/assets/img/ASIBUKA-Blue.webp' title='logo' layout='responsive' width='800' height='800' %}</a>
-<div class="card-content"><div class="card-title"><a href='/asibuka-logistics/' title='ASIBUKA Logistics'>ASIBUKA Logistics</a></div>
+<div class="card-content">
+<div class="card-title"><a href='/asibuka-logistics/' title='ASIBUKA Logistics'>ASIBUKA Logistics</a></div>
 </div>
 </div>
-</div>
-<div class="slider">
 <div class="card">
-<a href='#' title='ASIBUKA Store'>{% include image-lazy.html src='https://asibuka.com/assets/img/ASIBUKA-Blue.webp' title='logo' layout='responsive' width='800' height='800' %}</a>
-<div class="card-content"><div class="card-title"><a href='#' title='ASIBUKA Store'>ASIBUKA Store</a></div>
+<a href='/asibuka-logistics/' title='ASIBUKA Logistics'>{% include image-lazy.html src='https://asibuka.com/assets/img/ASIBUKA-Blue.webp' title='logo' layout='responsive' width='800' height='800' %}</a>
+<div class="card-content">
+<div class="card-title"><a href='/asibuka-logistics/' title='ASIBUKA Logistics'>ASIBUKA Logistics</a></div>
 </div>
 </div>
 </div>
