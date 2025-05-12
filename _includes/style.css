@@ -255,15 +255,15 @@ body.dark .text-to-mp3 label{color:#bbb}
 {% endif %}
 {% if content contains "slider-container" %}
 /* Slider */
-.slider-container{position:relative;overflow:hidden}
-.slider-container .slider{display:flex;overflow-x:auto;scroll-behavior:smooth;gap:16px;padding:0 40px 8px;max-width:100%}
+.slider-container{position:relative;overflow:hidden;padding:0 64px 8px;max-width:100vw;box-sizing:border-box}
+.slider-container .slider{display:flex;overflow-x:auto;scroll-behavior:smooth;gap:16px;max-width:100%;box-sizing:border-box}
 .slider-container .slider::-webkit-scrollbar{display:none}
-.slider-container .card{flex:0 0 auto;background:#fff;border-radius:16px;width:250px;box-shadow:0 4px 10px #0000001a;overflow:hidden}
+.slider-container .card{flex:0 0 auto;background:#fff;border-radius:16px;width:250px;box-shadow:0 4px 10px #0000001a;overflow:hidden;position:relative;z-index:2}
 .slider-container .card img{width:100%;height:160px;object-fit:cover}
 .slider-container .card-content{padding:12px}
 .slider-container .card-title{font-size:1rem;font-weight:700}
 .slider-container .card-price{color:#555;font-size:.9rem}
-.slider-container .nav-button{position:absolute;top:50%;transform:translateY(-50%);background:#fffc;border:none;cursor:pointer;padding:8px;border-radius:50%;font-size:1.2rem;box-shadow:0 2px 5px #0003;z-index:1}
+.slider-container .nav-button{position:absolute;top:50%;transform:translateY(-50%);background:#fffc;border:none;cursor:pointer;padding:8px;border-radius:50%;font-size:1.2rem;box-shadow:0 2px 5px #0003;z-index:3}
 .slider-container .nav-left{left:8px}
 .slider-container .nav-right{right:8px}
 body.dark .slider-container .card{background:#1e1e1e;box-shadow:0 4px 10px #0006}
