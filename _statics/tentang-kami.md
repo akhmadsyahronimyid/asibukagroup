@@ -49,7 +49,7 @@ Berikut adalah beberapa bisnis utama dari ASIBUKA Group.
 
 <div class="slider-container">
 <div class="card">
-<a href='/asibuka-logistics/' title='ASIBUKA Logistics'>{% include image-lazy.html src='https://asibuka.com/assets/img/ASIBUKA-Blue.webp' title='logo' layout='responsive' width='800' height='800' %}</a>
+<a href='/asibuka-logistics/' title='ASIBUKA Logistics'>{% include image-lazy.html src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiECW3g-EcVofeFlL9vydGknMEFkketLYzZ6ygDjrI9yg7iP_18S4Dl4R1KU4gZK8k6ODSird-7PW0HhRSDo4iP9na7rBJmMatKQcv1Qj1ba3Nuqsw04ISl8pmv6Y3GspxYsi_ths2vDvaK6AWD8TUkc2sDMpRSvH2xBb3LUubMot-g9FZTG1l48SbTqfAc/s300-rw/asibuka-logistics-transparent.png' title='logo' layout='responsive' width='800' height='800' %}</a>
 <div class="card-content">
 <div class="card-title"><a href='/asibuka-logistics/' title='ASIBUKA Logistics'>ASIBUKA Logistics</a></div>
 </div>
