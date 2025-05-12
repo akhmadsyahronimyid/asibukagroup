@@ -255,21 +255,10 @@ body.dark .text-to-mp3 label{color:#bbb}
 {% endif %}
 {% if content contains "slider-container" %}
 /* Slider */
-.slider-container{position:relative;overflow:hidden;padding:0 64px 8px;max-width:100vw;box-sizing:border-box}
-.slider-container .slider{display:flex;overflow-x:auto;scroll-behavior:smooth;gap:16px;max-width:100%;box-sizing:border-box}
-.slider-container .slider::-webkit-scrollbar{display:none}
-.slider-container .card{flex:0 0 auto;background:#fff;border-radius:16px;width:250px;box-shadow:0 4px 10px #0000001a;overflow:hidden;position:relative;z-index:2}
-.slider-container .card img{width:100%;height:160px;object-fit:cover}
-.slider-container .card-content{padding:12px}
-.slider-container .card-title{font-size:1rem;font-weight:700}
-.slider-container .card-price{color:#555;font-size:.9rem}
-.slider-container .nav-button{position:absolute;top:50%;transform:translateY(-50%);background:#fffc;border:none;cursor:pointer;padding:8px;border-radius:50%;font-size:1.2rem;box-shadow:0 2px 5px #0003;z-index:3}
-.slider-container .nav-left{left:8px}
-.slider-container .nav-right{right:8px}
-body.dark .slider-container .card{background:#1e1e1e;box-shadow:0 4px 10px #0006}
-body.dark .slider-container .card-title{color:#f1f1f1}
-body.dark .slider-container .card-price{color:#ccc}
-body.dark .slider-container .nav-button{background:#333c;color:#f0f0f0;box-shadow:0 2px 5px #0008}
+.slider-container{display:flex;overflow-x:auto;gap:16px;padding:20px;scroll-snap-type:x mandatory}
+.product-card{flex:0 0 auto;width:160px;background:#fff;border-radius:12px;box-shadow:0 2px 6px #0000001a;scroll-snap-align:start;text-align:center;padding:10px}
+.product-card img{width:100%;border-radius:8px;object-fit:cover;height:140px}
+.product-name{margin-top:10px;font-size:16px;font-weight:600;color:#333}
 {% endif %}
 /* Media Queries */
 @media (min-width: 769px){
@@ -297,10 +286,6 @@ body.dark .slider-container .nav-button{background:#333c;color:#f0f0f0;box-shado
 .post-container{flex-direction:column}
 .post-container .post-image{flex:0 0 100%;max-width:100%;padding-top:56.25%}
 .post-container .post-content{max-width:100%;flex:1}
-{% endif %}
-{% if content contains "slider-container" %}
-.slider-container .card{width:70%}
-.slider-container .nav-button{display:none}
 {% endif %}
 }
 @media print{

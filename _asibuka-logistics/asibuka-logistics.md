@@ -21,52 +21,34 @@ Selain itu, ASIBUKA Logistics juga menawarkan jasa pengiriman paket-paket E-Comm
 Hingga saat ini, ASIBUKA Logistics telah bekerja sama dengan beberapa usaha logistik seperti:
 
 <div class="slider-container">
-<button class="nav-button nav-left">&#8249;</button>
-<div class="slider">
-    <div class="card">
+    <div class="product-card">
     <a href='https://maps.app.goo.gl/4mPsHAxknydrmPUU9' target='_blank' rel='nofollow noopener noreferrer' title='J&T Cargo Sukamenak'>{% include image-lazy.html src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkuNvEq-TqTzQNLFP1rtpCa4e8Wnw5LcYtdAT0Igt4fHkwc974AzaLLZ29E_tEhlS27_GRy8XiJaO0n2xM0ddXAGjFeMA_WDQadfjkauPh7jZAonoBVvra-LGCj5Sd_SHJ2mqoCibW62d3Yd0SXqcVPkHb-Tnet3k24ZTK1uqyBjhW5rSsZ6FG2RVF2rOt/s0-rw/jnt-cargo.png' title='logo' layout='responsive' width='800' height='800' %}</a>
-    <div class="card-content">
-    <div class="card-title"><a href='https://maps.app.goo.gl/4mPsHAxknydrmPUU9' title='J&T Cargo Sukamenak'>J&T Cargo Sukamenak</a></div>
+    <div class="product-name"><a href='https://maps.app.goo.gl/4mPsHAxknydrmPUU9' title='J&T Cargo Sukamenak'>J&T Cargo Sukamenak</a></div>
     </div>
-    </div>
-    <div class="card">
+    <div class="product-card">
     <a href='https://maps.app.goo.gl/4mPsHAxknydrmPUU9' target='_blank' rel='nofollow noopener noreferrer' title='ID Express Sukamenak'>{% include image-lazy.html src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEnSI5gJ2xmM3TAkMvmHfDdqK5V5YoyFpg7Zn1OWQf_YMZmmZXYNuTdWEGtZSMh2vGGJcBG4KOfvCwere0LQURuv8eFwJWta-HcfhAwRLslMs-o9knp_NDBeUto1ppqnajvOVejiZPVZ-o48VcT4HRqVnQzf1gkxboC8lV9pTwv_h7t6ZRV-1htT50wX2Q/s0-rw/id-express.png' title='logo' layout='responsive' width='800' height='800' %}</a>
-    <div class="card-content">
-    <div class="card-title"><a href='https://maps.app.goo.gl/4mPsHAxknydrmPUU9' title='ID Express Sukamenak'>ID Express Sukamenak</a></div>
+    <div class="product-name"><a href='https://maps.app.goo.gl/4mPsHAxknydrmPUU9' title='ID Express Sukamenak'>ID Express Sukamenak</a></div>
     </div>
-    </div>
-    <div class="card">
+    <div class="product-card">
     <a href='https://maps.app.goo.gl/4mPsHAxknydrmPUU9' target='_blank' rel='nofollow noopener noreferrer' title='SiCepat Express'>{% include image-lazy.html src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnw_SSWTmsNy5DRpWbKtL-S3RinfoHjqZFjF6GgZOtmvImGLH9yyrpIU2ukGDjgzw2qK5Mcw7up_2YZxEsMWKaFmAFe8pcAhrsISJHzWZ_-0NxzVDLcGA5pqEdf3rT0aXbEYg6jtPtKyQwgT1w2gv-hAgSuCinIcnav5Klz_SqWHgy6_HIxzh6-o8HZ16j/s0-rw/sicepat-express.png' title='logo' layout='responsive' width='800' height='800' %}</a>
-    <div class="card-content">
-    <div class="card-title"><a href='https://maps.app.goo.gl/4mPsHAxknydrmPUU9' title='SiCepat Express Sukamenak'>SiCepat Express Sukamenak</a></div>
+    <div class="product-name"><a href='https://maps.app.goo.gl/4mPsHAxknydrmPUU9' title='SiCepat Express Sukamenak'>SiCepat Express Sukamenak</a></div>
     </div>
-    </div>
-    <div class="card">
+    <div class="product-card">
     <a href='https://maps.app.goo.gl/mGKSRfWy7PR9MffA9' target='_blank' rel='nofollow noopener noreferrer' title='Wahana Express Gg. Bah Awa'>{% include image-lazy.html src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrtGUeqhQBf6arGeJ4pW752SyqbEip13tRH4iEPHUcuk1Fi8O0aVNfPmoriWFVRWzT6diXpFa_SImC8vxNXpTwHB_qTjB-ZMSeBtNmGm00Nn3Uzyq6_hlZoiG98aicw6S02mWd0xcwYb7h28g3-cSoruE0A9fjkbNjgogiUkCxjOTEvWn8uVWUjeQqj1Cw/s0-rw/wahana-express.png' title='logo' layout='responsive' width='800' height='800' %}</a>
-    <div class="card-content">
-    <div class="card-title"><a href='https://maps.app.goo.gl/mGKSRfWy7PR9MffA9' title='Wahana Express Gg. Bah Awa'>Wahana Express Gg. Bah Awa</a></div>
+    <div class="product-name"><a href='https://maps.app.goo.gl/mGKSRfWy7PR9MffA9' title='Wahana Express Gg. Bah Awa'>Wahana Express Gg. Bah Awa</a></div>
     </div>
-    </div>
-    <div class="card">
+    <div class="product-card">
     <a href='https://maps.app.goo.gl/XV5kpB6BQpn8BKoo9' target='_blank' rel='nofollow noopener noreferrer' title='SPX Margahayu Kopo Sayati'>{% include image-lazy.html src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgveiB9Ki0aTbRgHSSEUFwvlasiw6DGY728wBQqdrWFzmy8tB15VlGJ3fmEF3irghcEO0dbJLlOtHCtL5BHl2DjCOMCeC9Cdu1hNrR2Ki7iqBtaIi0OC8YU68ZUpQM908qEFl6tWYt3kFe5nwu47a5mYqySEYIngR3y3rUg6TvmpFAV6On3UslD7LyKHJT/s0-rw/spx-express.png' title='logo' layout='responsive' width='800' height='800' %}</a>
-    <div class="card-content">
-    <div class="card-title"><a href='https://maps.app.goo.gl/XV5kpB6BQpn8BKoo9' title='SPX Margahayu Kopo Sayati'>SPX Margahayu Kopo Sayati</a></div>
+    <div class="product-name"><a href='https://maps.app.goo.gl/XV5kpB6BQpn8BKoo9' title='SPX Margahayu Kopo Sayati'>SPX Margahayu Kopo Sayati</a></div>
     </div>
-    </div>
-    <div class="card">
+    <div class="product-card">
     <a href='https://maps.app.goo.gl/XV5kpB6BQpn8BKoo9' target='_blank' rel='nofollow noopener noreferrer' title='LEX Margahayu Kopo Sayati'>{% include image-lazy.html src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEMSNGM3XHZyM-Q3q0_66mk6AYK3ZK1jDnyEu5nt_evhJ6AXyxYFWNPlGeQOYcFfRGbpTvAEQ3XFohUj-DqK-5fJzsTNDC2t1h3mRUuKLoMYKeAkyb_NyauRLdS5r4b8dVnpMMDDMCuaV6qEvvnTgDMyDJc_RqS3F6FEq7m9Ss7R15xChYt967jF_MThrA/s0-rw/lex-lazada-express.png' title='logo' layout='responsive' width='800' height='800' %}</a>
-    <div class="card-content">
-    <div class="card-title"><a href='https://maps.app.goo.gl/XV5kpB6BQpn8BKoo9' title='LEX Margahayu Kopo Sayati'>LEX Margahayu Kopo Sayati</a></div>
+    <div class="product-name"><a href='https://maps.app.goo.gl/XV5kpB6BQpn8BKoo9' title='LEX Margahayu Kopo Sayati'>LEX Margahayu Kopo Sayati</a></div>
     </div>
-    </div>
-    <div class="card">
+    <div class="product-card">
     <a href='https://maps.app.goo.gl/XV5kpB6BQpn8BKoo9' target='_blank' rel='nofollow noopener noreferrer' title='AnterAja Kabupaten Bandung'>{% include image-lazy.html src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDViwAuSF9FIiUfIACYrfCrqaQFMTcrf4HMm-Z3OTWk4pFF_OJPBaA7z92KdgC3u6z8L-KLDrcKLPMrCUgKierv7_kJGM2Z8WPmu9R_axTw0_3qaysXtDsai8Wh-LFP2vS2QA-wvZvRDnKGZznUpUPlReZuKMESuM2rv5ofxtkDU96ISf1qYt8rzrY8yRq/s0-rw/anteraja.png' title='logo' layout='responsive' width='800' height='800' %}</a>
-    <div class="card-content">
-    <div class="card-title"><a href='https://maps.app.goo.gl/XV5kpB6BQpn8BKoo9' title='AnterAja Kabupaten Bandung'>AnterAja Kabupaten Bandung</a></div>
+    <div class="product-name"><a href='https://maps.app.goo.gl/XV5kpB6BQpn8BKoo9' title='AnterAja Kabupaten Bandung'>AnterAja Kabupaten Bandung</a></div>
     </div>
-    </div>
-</div>
-<button class="nav-button nav-right">&#8250;</button>
 </div>
 
 <h2 class='main-heading'>Tujuan</h2>
