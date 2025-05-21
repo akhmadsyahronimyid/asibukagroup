@@ -16,6 +16,12 @@ ASIBUKA Logistics adalah salah satu proyek yang dikelola oleh ASIBUKA Group. ASI
 
 Selain itu, ASIBUKA Logistics juga menawarkan jasa pengiriman paket-paket E-Commerce sehingga dapat bekerjasama dengan pegiat usaha online.
 
+<h2 class='main-heading'>Tujuan</h2>
+
+ASIBUKA Logistics punya satu tujuan utama yang ingin dicapai, yaitu:
+
+> **Setiap partner dari ASIBUKA Logistics dapat mencapai target yang diharapkan dan dapat membuka lapangan kerja seluas-luasnya.**
+
 <h2 class='main-heading'>Partner ASIBUKA Logistics</h2>
 
 Hingga saat ini, ASIBUKA Logistics telah bekerja sama dengan beberapa usaha logistik seperti:
@@ -51,12 +57,6 @@ Hingga saat ini, ASIBUKA Logistics telah bekerja sama dengan beberapa usaha logi
     </div>
 </div>
 
-<h2 class='main-heading'>Tujuan</h2>
-
-ASIBUKA Logistics punya satu tujuan utama yang ingin dicapai, yaitu:
-
-> **Setiap partner dari ASIBUKA Logistics dapat mencapai target yang diharapkan dan dapat membuka lapangan kerja seluas-luasnya.**
-
 <h2 class='main-heading'>Laporan Laba Rugi</h2>
 <div class='table-container'>
 <table>
@@ -69,7 +69,7 @@ ASIBUKA Logistics punya satu tujuan utama yang ingin dicapai, yaitu:
 </tr>
 </table>
 </div>
-<h2 class='main-heading'>Neraca Keuangan</h2>
+<!--<h2 class='main-heading'>Neraca Keuangan</h2>
 <h2 class='main-heading'>Laporan Arus Kas</h2>
 <h2 class='main-heading'>Proyeksi Keuangan</h2>
 <h2 class='main-heading'>Slide Presentasi</h2>
@@ -78,4 +78,4 @@ ASIBUKA Logistics punya satu tujuan utama yang ingin dicapai, yaitu:
 <h2 class='main-heading'>Model Bisnis</h2>
 <h2 class='main-heading'>Penggunaan Dana Investasi</h2>
 <h2 class='main-heading'>Cap Table</h2>
-<h2 class='main-heading'>Dokumen Legal</h2>
+<h2 class='main-heading'>Dokumen Legal</h2>-->

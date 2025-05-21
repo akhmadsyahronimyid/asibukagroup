@@ -60,6 +60,11 @@ defaults:
       type: "js"
     values:
       layout: null
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
 # ------------------------------
 # 🌐 Markdown Settings
 # ------------------------------
