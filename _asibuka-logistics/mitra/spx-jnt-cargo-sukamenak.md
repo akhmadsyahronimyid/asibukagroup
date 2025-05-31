@@ -20,8 +20,12 @@ toc: false
 <th>Laporan Bulanan</th><th>Link</th>
 </tr>
 <tr>
-<td>2025-05</td>
+<td>2025-06</td>
 <td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}?function=komisi-asibuka-logistics&title=SPX%20JNT%20Cargo%20Sukamenak%20Periode%202025-5&title1=Ringkasan&id1=2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0&gid1=499285548&title2=Transaksi&id2=2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0&gid2=2124279933'>Lihat Laporan</a></td>
+</tr>
+<tr>
+<td>2025-05</td>
+<td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}?function=komisi-asibuka-logistics&title=SPX%20JNT%20Cargo%20Sukamenak%20Periode%202025-5&title1=Ringkasan&id1=2PACX-1vTXgAIaCfMd4TuzogyXXXuRlGz5aX085mWKgZkkwRKZ6sY4qU9oFgln7eXeeygvkn4gWrLvL8W41Uim&gid1=499285548&title2=Transaksi&id2=2PACX-1vTXgAIaCfMd4TuzogyXXXuRlGz5aX085mWKgZkkwRKZ6sY4qU9oFgln7eXeeygvkn4gWrLvL8W41Uim&gid2=2124279933'>Lihat Laporan</a></td>
 </tr>
 <tr>
 <td>2025-04</td>
