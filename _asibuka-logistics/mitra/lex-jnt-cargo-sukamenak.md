@@ -21,7 +21,7 @@ toc: false
 </tr>
 <tr>
 <td>2025-06</td>
-<td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}?function=komisi-asibuka-logistics&title=LEX%20JNT%20Cargo%20Sukamenak%20Periode%202025-5&title1=Ringkasan&id1=2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0&gid1=1197839177&title2=Transaksi&id2=2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0&gid2=2051826570'>Lihat Laporan</a></td>
+<td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}?function=komisi-asibuka-logistics&title=LEX%20JNT%20Cargo%20Sukamenak%20Periode%202025-6&title1=Ringkasan&id1=2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0&gid1=1197839177&title2=Transaksi&id2=2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0&gid2=2051826570'>Lihat Laporan</a></td>
 </tr>
 <tr>
 <td>2025-05</td>
