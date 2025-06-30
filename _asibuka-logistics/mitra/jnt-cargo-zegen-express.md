@@ -20,8 +20,12 @@ toc: false
 <th>Laporan Bulanan</th><th>Link</th>
 </tr>
 <tr>
+<td>2025-07</td>
+<td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}?function=komisi-asibuka-logistics&title=JNT%20Cargo%20Zegen%20Express%20Periode%202025-7&title1=Ringkasan&id1=2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0&gid1=53424333&title2=Transaksi&id2=2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0&gid2=1844579586'>Lihat Laporan</a></td>
+</tr>
+<tr>
 <td>2025-06</td>
-<td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}?function=komisi-asibuka-logistics&title=JNT%20Cargo%20Zegen%20Express%20Periode%202025-6&title1=Ringkasan&id1=2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0&gid1=53424333&title2=Transaksi&id2=2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0&gid2=1844579586'>Lihat Laporan</a></td>
+<td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}?function=komisi-asibuka-logistics&title=JNT%20Cargo%20Zegen%20Express%20Periode%202025-6&title1=Ringkasan&id1=2PACX-1vR7SPQHc4Jj2UHlANf0Ixycg6agVdgPjFvi9rur1fzy30TvIpzIS63k-tR_87qZvlIrs9phy4Bmktoi&gid1=53424333&title2=Transaksi&id2=2PACX-1vR7SPQHc4Jj2UHlANf0Ixycg6agVdgPjFvi9rur1fzy30TvIpzIS63k-tR_87qZvlIrs9phy4Bmktoi&gid2=1844579586'>Lihat Laporan</a></td>
 </tr>
 <tr>
 <td>2025-05</td>
