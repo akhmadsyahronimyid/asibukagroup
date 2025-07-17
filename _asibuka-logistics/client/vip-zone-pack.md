@@ -1,7 +1,7 @@
 ---
 layout: asibuka-logistics
 title: "Cashback VIP Client: ZONE PACK"
-date: 2025-06-01 00:00:04
+date: 2025-07-17 00:00:04
 permalink: /client/zone-pack/
 image: https://www.asibuka.com/assets/img/ASIBUKA-Blue.webp
 description: Daftar Laporan Cashback per bulan dari VIP Client - ZONE PACK.
