@@ -21,7 +21,7 @@ toc: false
 </tr>
 <tr>
 <td>2025-08</td>
-<td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}https://docs.google.com/spreadsheets/d/e/2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0/pub?gid=1154847828&single=true&output=csv'>Lihat Laporan</a></td>
+<td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}?function=komisi-asibuka-logistics&title=Pegawai%20-%20Saepul%20Aripin%20Periode%202025-8&title1=Ringkasan&id1=2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0&gid1=1154847828'>Lihat Laporan</a></td>
 </tr>
 </table>
 </div>
