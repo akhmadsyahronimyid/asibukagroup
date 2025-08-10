@@ -18,60 +18,6 @@ comments: true
       <div id="protectedPrice"><strong>Protected Price:</strong> ...</div>
       <div><strong>Official Link:</strong> <a href='https://www.mintme.com/token/ASIBUKA-Group-Project' title='ASIBUKA Group Project' rel='nofollow noopener noreferrer' target='_blank'>https://www.mintme.com/token/ASIBUKA-Group-Project</a></div>
 </section>
-
-<style>
-.token-info {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 15px;
-  margin-top: 20px;
-}
-
-.token-info div {
-  background: #f7f7f7;
-  padding: 15px 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: all 0.3s ease;
-}
-
-.token-info div strong {
-  color: #333;
-}
-
-.token-info div:hover {
-  background: #e3f2fd;
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  cursor: pointer;
-}
-
-@media (min-width: 600px) {
-  .token-info {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-/* Dark mode styles */
-body.dark {
-  background-color: #121212;
-  color: #e0e0e0;
-}
-
-body.dark .token-info div {
-  background: #1e1e1e;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.6);
-}
-
-body.dark .token-info div strong {
-  color: #fff;
-}
-
-body.dark .token-info div:hover {
-  background: #263238;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.8);
-}
-</style>
 <script>
 async function fetchTokenData(){
       const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTcigasQw59pNhwuQMZNwEVOqG7pNR8KYDfC_2UG_E5GFKkCoZMbiQRqY94HAS4bG10UJ07AAfdu-D9/pub?gid=95175589&single=true&output=csv';
