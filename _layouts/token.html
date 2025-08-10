@@ -57,7 +57,7 @@ body{padding:18px}
       <div id="circulatingSupply"><strong>Circulating Supply:</strong> ...</div>
       <div id="ipoPrice"><strong>Based / IPO Price:</strong> ...</div>
       <div id="protectedPrice"><strong>Protected Price:</strong> ...</div>
-    </section>
+</section>
 
     <section class="links" aria-label="Links">
       <a class="link" href="https://example.com" target="_blank" rel="noopener noreferrer">
@@ -103,5 +103,48 @@ body{padding:18px}
       <div class="muted">Made with ❤️ • <span id="year"></span></div>
     </div>
 </main>
+{{ content }}
+<script>
+const themeToggle = document.getElementById('themeToggle');
+    const copyBtn = document.getElementById('copyBtn');
+    const yearEl = document.getElementById('year');
+
+    function setTheme(theme){
+      if(theme === 'light') document.documentElement.classList.add('light');
+      else document.documentElement.classList.remove('light');
+      localStorage.setItem('biolink-theme', theme);
+    }
+
+    const saved = localStorage.getItem('biolink-theme') || (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    setTheme(saved);
+
+    themeToggle.addEventListener('click', ()=>{
+      const cur = document.documentElement.classList.contains('light') ? 'light' : 'dark';
+      setTheme(cur === 'light' ? 'dark' : 'light');
+    });
+
+    copyBtn.addEventListener('click', async ()=>{
+      try{
+        await navigator.clipboard.writeText(window.location.href);
+        copyBtn.textContent = 'Copied';
+        setTimeout(()=>copyBtn.textContent='Share',1200);
+      }catch(e){
+        alert('Copy failed — just share the URL manually.');
+      }
+    });
+
+    function logEvent(name, data={}){
+      console.log('biolink:event', name, data);
+    }
+
+    document.querySelectorAll('.link').forEach(a=>{
+      a.addEventListener('click', ()=> logEvent('link_click', {href: a.href}));
+    });
+
+    yearEl.textContent = new Date().getFullYear();
+
+    document.getElementById('name').addEventListener('dblclick', e=>{ e.target.contentEditable=true; e.target.focus(); });
+    document.getElementById('bio').addEventListener('dblclick', e=>{ e.target.contentEditable=true; e.target.focus(); });
+    </script>
 </body>
 </html>

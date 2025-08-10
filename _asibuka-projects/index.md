@@ -11,13 +11,6 @@ robots: index, follow
 lang: en
 comments: true
 ---
-<section class="token-info" aria-label="Token Information">
-      <div id="totalSupply"><strong>Total Token Supply:</strong> ...</div>
-      <div id="circulatingSupply"><strong>Circulating Supply:</strong> ...</div>
-      <div id="ipoPrice"><strong>Based / IPO Price:</strong> ...</div>
-      <div id="protectedPrice"><strong>Protected Price:</strong> ...</div>
-      <div><strong>Official Link:</strong> <a href='https://www.mintme.com/token/ASIBUKA-Group-Project' title='ASIBUKA Group Project' rel='nofollow noopener noreferrer' target='_blank'>https://www.mintme.com/token/ASIBUKA-Group-Project</a></div>
-</section>
 <script>
 async function fetchTokenData(){
       const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTcigasQw59pNhwuQMZNwEVOqG7pNR8KYDfC_2UG_E5GFKkCoZMbiQRqY94HAS4bG10UJ07AAfdu-D9/pub?gid=95175589&single=true&output=csv';
