@@ -1,5 +1,5 @@
 ---
-layout: static
+layout: biolink
 title: ASIBUKA Group Project
 date: 2025-08-10 00:00:04
 permalink: /token/asibuka-group-project
@@ -16,7 +16,7 @@ comments: true
       <div id="circulatingSupply"><strong>Circulating Supply:</strong> ...</div>
       <div id="ipoPrice"><strong>Based / IPO Price:</strong> ...</div>
       <div id="protectedPrice"><strong>Protected Price:</strong> ...</div>
-      <div><strong>Official Link:</strong><a href='https://www.mintme.com/token/ASIBUKA-Group-Project' title='ASIBUKA Group Project' rel='nofollow noopener noreferrer' target='_blank'>https://www.mintme.com/token/ASIBUKA-Group-Project</a></div>
+      <div><strong>Official Link:</strong> <a href='https://www.mintme.com/token/ASIBUKA-Group-Project' title='ASIBUKA Group Project' rel='nofollow noopener noreferrer' target='_blank'>https://www.mintme.com/token/ASIBUKA-Group-Project</a></div>
 </section>
 
 <style>
