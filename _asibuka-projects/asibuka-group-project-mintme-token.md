@@ -3,9 +3,9 @@ layout: token
 title: ASIBUKA Group Project
 date: 2025-08-10 00:00:04
 permalink: /token/asibuka-group-project
-description: Laman khusus untuk berdiskusi seputar topik-topik umum dan bebas.
-image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpQQe96jI9dkzN81SsrYbJ8IR0dOvN0eiItucN_ppF-WjQ3tzL3q18pMprWs5dbPXbkmUKF7dPBWaFLMQne16BBURYsIZQ2xYbNw1-tV6kW9UnOkvZuI_a_9MBJF9lekshsUSAlEEY7XyOsuLv7nNNhvUpzd9bajaVNklcezkSewK0wpf4xZ6FIWHwmzI/s0-rw/diskusi.jpeg
-keywords: mintme, token, asibuka project
+description: ASIBUKA Group Project tokenized on MintMe platform.
+image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK_efw0TwzZ9QxqFOD-w0VHMki05y5hBkDrgXmC8dtwmnF3BMHrL8rAAFG3ZJUcBRc_dkEvqkPMFi7hcpWhWLjCW4sltMOJ3zIp4LGZsGj3ABfd6cuPUsKAK425gA7wDay0E4c1saZJmwv9uiviAMR2aw2_2AD_wesI16zUYiJxqTeLorkD9rvce4Dhnc/s0-rw/asibuka-group-project-token-logo.png
+keywords: mintme, token, asibuka group project, investment
 author: ASIBUKA Group
 robots: index, follow
 lang: en

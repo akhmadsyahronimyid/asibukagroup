@@ -45,7 +45,7 @@ body{padding:18px}
   <div style="display:flex;align-items:center;gap:12px;">
     <header style="flex:1;display:flex;align-items:center;gap:12px;">
       <div class="avatar" aria-hidden="true">
-        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK_efw0TwzZ9QxqFOD-w0VHMki05y5hBkDrgXmC8dtwmnF3BMHrL8rAAFG3ZJUcBRc_dkEvqkPMFi7hcpWhWLjCW4sltMOJ3zIp4LGZsGj3ABfd6cuPUsKAK425gA7wDay0E4c1saZJmwv9uiviAMR2aw2_2AD_wesI16zUYiJxqTeLorkD9rvce4Dhnc/s0-rw/asibuka-group-project-token-logo.png" alt="ASIBUKA Group Project Logo" title="ASIBUKA Group Project Logo">
+        <img src="{{ page.image }}" alt="{{ page.title | default: site.title }} Logo" title="{{ page.title | default: site.title }} Logo">
       </div>
       <div class="meta">
         <h1 id="name">{{ page.title | default: site.title }}</h1>
