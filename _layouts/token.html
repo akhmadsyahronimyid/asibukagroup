@@ -14,6 +14,7 @@ body{margin:0;background:linear-gradient(180deg,var(--bg),#071028 140%);color:va
 .card{width:100%;max-width:var(--maxw);background:linear-gradient(180deg,#ffffff05,transparent),var(--card);border-radius:20px;padding:28px;box-shadow:0 10px 30px #02061799;border:1px solid #ffffff08}
 header{display:flex;align-items:center;gap:16px}
 .avatar{width:72px;height:72px;border-radius:16px;overflow:hidden;flex:0 0 72px;background:linear-gradient(135deg,var(--accent),#4c1d95);display:inline-grid;place-items:center;color:#fff;font-weight:700;font-size:28px}
+.avatar img{width:100%;height:100%;object-fit:cover}
 .meta h1{margin:0;font-size:18px}
 .meta p{margin:4px 0 0;font-size:13px;color:var(--muted)}
 .links{margin-top:20px;display:grid;gap:12px}
@@ -30,70 +31,67 @@ header{display:flex;align-items:center;gap:16px}
 .token-info{margin-top:20px;padding:12px;background:var(--glass);border-radius:12px;font-size:14px;color:var(--text)}
 .token-info div{margin-bottom:4px}
 .token-info strong{color:var(--accent)}
-@media (max-width:520px) {
+@media (max-width: 520px) {
 body{padding:18px}
 .card{padding:20px}
+.avatar{width:60px;height:60px;flex:0 0 60px}
+.meta h1{font-size:16px}
 }
 .muted{color:var(--muted)}
   </style>
 </head>
 <body {% if page.is_amp %}[class]="visible ? 'dark' : 'light'"{% else %}class="light"{% endif %} id="top">
-<main aria-label="Main Wrapper" class="card hide-on-print" id="card" role="main"><div style="display:flex;align-items:center;gap:12px;">
-      <header style="flex:1;display:flex;align-items:center;gap:12px;">
-        <div class="avatar" aria-hidden="true">ID</div>
-        <div class="meta">
-          <h1 id="name">{{ page.title | default: site.title }}</h1>
-          <p id="bio">{{ page.description | default: site.description }}</p>
-        </div>
-      </header>
-      <div class="top-controls">
-        <button id="themeToggle" class="btn" title="Toggle light / dark">Toggle</button>
-        <button id="copyBtn" class="btn" title="Copy profile link">Share</button>
+<main aria-label="Main Wrapper" class="card hide-on-print" id="card" role="main">
+  <div style="display:flex;align-items:center;gap:12px;">
+    <header style="flex:1;display:flex;align-items:center;gap:12px;">
+      <div class="avatar" aria-hidden="true">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK_efw0TwzZ9QxqFOD-w0VHMki05y5hBkDrgXmC8dtwmnF3BMHrL8rAAFG3ZJUcBRc_dkEvqkPMFi7hcpWhWLjCW4sltMOJ3zIp4LGZsGj3ABfd6cuPUsKAK425gA7wDay0E4c1saZJmwv9uiviAMR2aw2_2AD_wesI16zUYiJxqTeLorkD9rvce4Dhnc/s0-rw/asibuka-group-project-token-logo.png" alt="ASIBUKA Group Project Logo" title="ASIBUKA Group Project Logo">
       </div>
+      <div class="meta">
+        <h1 id="name">{{ page.title | default: site.title }}</h1>
+        <p id="bio">{{ page.description | default: site.description }}</p>
+      </div>
+    </header>
+    <div class="top-controls">
+      <button id="themeToggle" class="btn" title="Toggle light / dark">Toggle</button>
+      <button id="copyBtn" class="btn" title="Copy profile link">Share</button>
     </div>
+  </div>
 
-    <section class="token-info" aria-label="Token Information">
-      <div id="totalSupply"><strong>Total Token Supply:</strong> ...</div>
-      <div id="circulatingSupply"><strong>Circulating Supply:</strong> ...</div>
-      <div id="ipoPrice"><strong>Based / IPO Price:</strong> ...</div>
-      <div id="protectedPrice"><strong>Protected Price:</strong> ...</div>
-</section>
+  <section class="token-info" aria-label="Token Information">
+    <div id="totalSupply"><strong>Total Token Supply:</strong> ...</div>
+    <div id="circulatingSupply"><strong>Circulating Supply:</strong> ...</div>
+    <div id="ipoPrice"><strong>Based / IPO Price:</strong> ...</div>
+    <div id="protectedPrice"><strong>Protected Price:</strong> ...</div>
+  </section>
 
-    <section class="links" aria-label="Links">
-      <a class="link" title='Buy Token' href="https://www.mintme.com/token/ASIBUKA-Group-Project/invite" target="_blank" rel="noopener noreferrer">
-        <div class="icon" aria-hidden>🏷️</div>
-        <div>
-          <div class="title">Buy Token</div>
-          <div class="subtitle">Buy from the only MintMe Platform.</div>
-        </div>
-      </a>
+  <section class="links" aria-label="Links">
+    <a class="link" title='Buy Token' href="https://www.mintme.com/token/ASIBUKA-Group-Project/invite" target="_blank" rel="noopener noreferrer">
+      <div class="icon" aria-hidden>🏷️</div>
+      <div>
+        <div class="title">Buy Token</div>
+        <div class="subtitle">Buy from the only MintMe Platform.</div>
+      </div>
+    </a>
 
-      <a class="link" href="https://blog.example.com" target="_blank" rel="noopener noreferrer">
-        <div class="icon" aria-hidden>📝</div>
-        <div>
-          <div class="title">Blog</div>
-          <div class="subtitle">Thoughts & tutorials</div>
-        </div>
-      </a>
-<!--
-      <a class="link" href="#contact" role="button">
-        <div class="icon" aria-hidden>💬</div>
-        <div>
-          <div class="title">Contact</div>
-          <div class="subtitle">Quick DM or collab</div>
-        </div>
-      </a>-->
-    </section>
+    <a class="link" href="https://blog.example.com" target="_blank" rel="noopener noreferrer">
+      <div class="icon" aria-hidden>📝</div>
+      <div>
+        <div class="title">Blog</div>
+        <div class="subtitle">Thoughts &amp; tutorials</div>
+      </div>
+    </a>
+  </section>
 
-    <div class="social" aria-label="Social links">
-      <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">🐦</a>
-      <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📸</a>
-      <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">🐙</a>
-    </div>
+  <div class="social" aria-label="Social links">
+    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">🐦</a>
+    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📸</a>
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">🐙</a>
+  </div>
 
-    <div class="footer">
-      <div class="muted">Made with ❤️ • <span id="year"></span></div>
-    </div>
+  <div class="footer">
+    <div class="muted">Made with ❤️ • <span id="year"></span></div>
+  </div>
 </main>
 {{ content }}
 <script>
