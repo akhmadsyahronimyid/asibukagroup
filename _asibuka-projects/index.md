@@ -8,7 +8,7 @@ image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpQQe96jI9dkzN
 keywords: mintme, token, asibuka project
 author: ASIBUKA Group
 robots: index, follow
-lang: id
+lang: en
 comments: true
 ---
 <section class="token-info" aria-label="Token Information">
@@ -16,6 +16,7 @@ comments: true
       <div id="circulatingSupply"><strong>Circulating Supply:</strong> ...</div>
       <div id="ipoPrice"><strong>Based / IPO Price:</strong> ...</div>
       <div id="protectedPrice"><strong>Protected Price:</strong> ...</div>
+      <div><strong>Official Link:</strong><a href='https://www.mintme.com/token/ASIBUKA-Group-Project' title='ASIBUKA Group Project' rel='nofollow noopener noreferrer' target='_blank'>https://www.mintme.com/token/ASIBUKA-Group-Project</a></div>
 </section>
 
 <style>
