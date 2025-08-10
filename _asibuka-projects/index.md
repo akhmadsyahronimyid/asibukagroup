@@ -45,11 +45,30 @@ comments: true
   cursor: pointer;
 }
 
-/* Responsive: two columns on larger screens */
 @media (min-width: 600px) {
   .token-info {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+/* Dark mode styles */
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark .token-info div {
+  background: #1e1e1e;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+}
+
+body.dark .token-info div strong {
+  color: #fff;
+}
+
+body.dark .token-info div:hover {
+  background: #263238;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.8);
 }
 </style>
 <script>
