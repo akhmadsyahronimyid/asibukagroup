@@ -1,6 +1,6 @@
 ---
 layout: static
-title: Diskusi
+title: ASIBUKA Group Project
 date: 2025-08-10 00:00:04
 permalink: /token/asibuka-group-project
 description: Laman khusus untuk berdiskusi seputar topik-topik umum dan bebas.
