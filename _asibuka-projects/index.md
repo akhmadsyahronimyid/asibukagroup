@@ -1,5 +1,5 @@
 ---
-layout: biolink
+layout: token
 title: ASIBUKA Group Project
 date: 2025-08-10 00:00:04
 permalink: /token/asibuka-group-project

@@ -1,0 +1,155 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html {% if page.is_amp %}amp {% endif %}lang="{{ page.lang | default: site.lang }}">
+<head>
+{% include layout/meta.html %}
+  <style>
+    :root{
+      --bg:#0f1724;
+      --card:#0b1220;
+      --muted:#9aa4b2;
+      --accent:#7c3aed;
+      --text:#e6eef8;
+      --glass: rgba(255,255,255,0.04);
+      --radius:14px;
+      --maxw:520px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    :root.light{
+      --bg: #f7fbff;
+      --card: #ffffff;
+      --muted: #475569;
+      --accent:#7c3aed;
+      --text:#0b1220;
+      --glass: rgba(11,18,32,0.04);
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      background:linear-gradient(180deg,var(--bg), #071028 140%);
+      color:var(--text);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:32px;
+      transition:background .3s ease, color .3s ease;
+    }
+
+    .card{
+      width:100%;
+      max-width:var(--maxw);
+      background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent), var(--card);
+      border-radius:20px;
+      padding:28px;
+      box-shadow: 0 10px 30px rgba(2,6,23,0.6);
+      border:1px solid rgba(255,255,255,0.03);
+    }
+
+    header{display:flex;align-items:center;gap:16px}
+    .avatar{
+      width:72px;height:72px;border-radius:16px;overflow:hidden;flex:0 0 72px;background:linear-gradient(135deg,var(--accent), #4c1d95);
+      display:inline-grid;place-items:center;color:white;font-weight:700;font-size:28px;
+    }
+    .meta h1{margin:0;font-size:18px}
+    .meta p{margin:4px 0 0;font-size:13px;color:var(--muted)}
+
+    .links{margin-top:20px;display:grid;gap:12px}
+    .link{
+      display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:12px;background:var(--glass);text-decoration:none;color:var(--text);
+      border:1px solid transparent;transition:transform .12s ease,box-shadow .12s ease,background .12s;
+    }
+    .link:hover{transform:translateY(-4px);box-shadow:0 8px 20px rgba(2,6,23,0.5);border-color:rgba(124,58,237,0.12)}
+    .link .icon{width:40px;height:40px;border-radius:10px;display:inline-grid;place-items:center;background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(0,0,0,0.06));font-weight:700}
+    .link .title{font-weight:600}
+    .link .subtitle{font-size:12px;color:var(--muted);margin-top:2px}
+
+    .social{display:flex;gap:12px;justify-content:center;margin-top:18px}
+    .social a{width:40px;height:40px;border-radius:10px;display:inline-grid;place-items:center;background:transparent;border:1px solid rgba(255,255,255,0.04);text-decoration:none;color:var(--text)}
+
+    .footer{margin-top:18px;text-align:center;font-size:13px;color:var(--muted)}
+
+    .top-controls{display:flex;gap:8px;margin-left:auto}
+    .btn{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:6px 10px;border-radius:10px;color:var(--text);cursor:pointer}
+
+    .token-info{margin-top:20px;padding:12px;background:var(--glass);border-radius:12px;font-size:14px;color:var(--text)}
+    .token-info div{margin-bottom:4px}
+    .token-info strong{color:var(--accent)}
+
+    @media (max-width:520px){body{padding:18px}.card{padding:20px}}
+
+    .muted{color:var(--muted)}
+  </style>
+</head>
+<body {% if page.is_amp %}[class]="visible ? 'dark' : 'light'"{% else %}class="light"{% endif %} id="top">
+<main aria-label="Main Wrapper" class="card hide-on-print" id="card" role="main"><div style="display:flex;align-items:center;gap:12px;">
+      <header style="flex:1;display:flex;align-items:center;gap:12px;">
+        <div class="avatar" aria-hidden="true">YN</div>
+        <div class="meta">
+          <h1 id="name">{{ title }}</h1>
+          <p id="bio">Designer • Developer • Open-source tinkerer</p>
+        </div>
+      </header>
+      <div class="top-controls">
+        <button id="themeToggle" class="btn" title="Toggle light / dark">Toggle</button>
+        <button id="copyBtn" class="btn" title="Copy profile link">Share</button>
+      </div>
+    </div>
+
+    <section class="token-info" aria-label="Token Information">
+      <div id="totalSupply"><strong>Total Token Supply:</strong> ...</div>
+      <div id="circulatingSupply"><strong>Circulating Supply:</strong> ...</div>
+      <div id="ipoPrice"><strong>Based / IPO Price:</strong> ...</div>
+      <div id="protectedPrice"><strong>Protected Price:</strong> ...</div>
+    </section>
+
+    <section class="links" aria-label="Links">
+      <a class="link" href="https://example.com" target="_blank" rel="noopener noreferrer">
+        <div class="icon" aria-hidden>🏷️</div>
+        <div>
+          <div class="title">Latest project</div>
+          <div class="subtitle">A one-line description</div>
+        </div>
+      </a>
+
+      <a class="link" href="https://blog.example.com" target="_blank" rel="noopener noreferrer">
+        <div class="icon" aria-hidden>📝</div>
+        <div>
+          <div class="title">Blog</div>
+          <div class="subtitle">Thoughts & tutorials</div>
+        </div>
+      </a>
+
+      <a class="link" href="mailto:you@example.com" target="_blank" rel="noopener noreferrer">
+        <div class="icon" aria-hidden>✉️</div>
+        <div>
+          <div class="title">Email me</div>
+          <div class="subtitle">you@example.com</div>
+        </div>
+      </a>
+
+      <a class="link" href="#contact" role="button">
+        <div class="icon" aria-hidden>💬</div>
+        <div>
+          <div class="title">Contact</div>
+          <div class="subtitle">Quick DM or collab</div>
+        </div>
+      </a>
+    </section>
+
+    <div class="social" aria-label="Social links">
+      <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">🐦</a>
+      <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📸</a>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">🐙</a>
+    </div>
+
+    <div class="footer">
+      <div class="muted">Made with ❤️ • <span id="year"></span></div>
+    </div>
+{{ content }}
+</main>
+</body>
+</html>
