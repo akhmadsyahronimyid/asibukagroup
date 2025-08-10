@@ -11,6 +11,40 @@ robots: index, follow
 lang: id
 comments: true
 ---
+<style>
+.token-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.token-info div {
+  background: #f7f7f7;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.token-info div strong {
+  color: #333;
+}
+
+.token-info div:hover {
+  background: #e3f2fd;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  cursor: pointer;
+}
+
+/* Responsive: two columns on larger screens */
+@media (min-width: 600px) {
+  .token-info {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+</style>
 <section class="token-info" aria-label="Token Information">
       <div id="totalSupply"><strong>Total Token Supply:</strong> ...</div>
       <div id="circulatingSupply"><strong>Circulating Supply:</strong> ...</div>
