@@ -34,7 +34,7 @@ async function fetchTokenData(){
 
         document.getElementById('totalSupply').innerHTML = `<strong>Total Token Supply:</strong> ${getValue('total token supply')}`;
         document.getElementById('circulatingSupply').innerHTML = `<strong>Circulating Supply:</strong> ${getValue('circulating supply')}`;
-        document.getElementById('ipoPrice').innerHTML = `<strong>Based / IPO Price:</strong> ${getValue('based / ipo price')}`;
+        document.getElementById('ipoPrice').innerHTML = `<strong>Based / IPO Price:</strong> ${getValue('based price')}`;
         document.getElementById('protectedPrice').innerHTML = `<strong>Protected Price:</strong> ${getValue('protected price')}`;
       } catch(err){
         console.error('Failed to fetch token data', err);
