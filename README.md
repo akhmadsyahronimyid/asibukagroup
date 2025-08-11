@@ -46,12 +46,3 @@ Up to now, ASIBUKA Logistics has already collaborate with few logistics business
 ASIBUKA Logistics has one main objective to achieve:
 
 > **Each partner must reach their target turnover and hire at least two young workers.**
-
-#### ASIBUKA Logistics Progress
-Below is the progress update for each partner toward achieving their objectives.
-
-##### 1. J&T Cargo Sukamenak
-**TARGET**
-1. Build a business that generates passive income for the company, earning over Rp200,000 per day. (⏳ In Progress...)
-2. Hire at least three employees, providing fair salaries according to local labor regulations. (⏳ In Progress...)
-3. Appoint one employee as the Person in Charge (PIC) to manage daily business operations. (⏳ In Progress...)
