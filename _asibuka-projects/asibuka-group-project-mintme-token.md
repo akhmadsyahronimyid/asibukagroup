@@ -33,6 +33,10 @@ lang: en
   <div id="protectedPrice"><strong>Sell Price:</strong> ...</div>
 </section>
 
+<div class="footer">
+{% include layout/leaderboard_ads.html %}
+</div>
+
 <section class="links" aria-label="Links">
   <a class="link" title="Buy Token" href="https://www.mintme.com/token/ASIBUKA-Group-Project" target="_blank" rel="noopener noreferrer">
     <div class="icon" aria-hidden>
@@ -58,10 +62,6 @@ lang: en
     <span class="close-btn" data-close>&times;</span>
     <p>There is no question for now.</p>
   </div>
-</div>
-
-<div class="footer">
-{% include layout/leaderboard_ads.html %}
 </div>
 
 <div class="social" aria-label="Social links">
