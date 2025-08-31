@@ -20,8 +20,12 @@ toc: false
 <th>Laporan Bulanan</th><th>Link</th>
 </tr>
 <tr>
+<td>2025-09</td>
+<td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}?function=komisi-asibuka-logistics&title=Mitra%20-%20Saripudin%20SiCepat%20Periode%202025-9&title1=Ringkasan&id1=2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0&gid1=265557075'>Lihat Laporan</a></td>
+</tr>
+<tr>
 <td>2025-08</td>
-<td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}?function=komisi-asibuka-logistics&title=Mitra%20-%20Saripudin%20SiCepat%20Periode%202025-8&title1=Ringkasan&id1=2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0&gid1=265557075'>Lihat Laporan</a></td>
+<td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}?function=komisi-asibuka-logistics&title=Mitra%20-%20Saripudin%20SiCepat%20Periode%202025-8&title1=Ringkasan&id1=2PACX-1vS-wUK2SYIzFcACNXGR8uJkSY8b_hdgYD361QMrnyZ2ZSxINNIg3cDQ7fbea9R3U5gWGEgIKjxnPxRG&gid1=265557075'>Lihat Laporan</a></td>
 </tr>
 <tr>
 <td>2025-07</td>
