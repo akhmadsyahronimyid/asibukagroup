@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: static
 title: "Review Ad Networks: Mondiad"
 date: 2025-05-07 00:00:05
 permalink: /ad-networks/mondiad/
