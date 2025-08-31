@@ -41,7 +41,7 @@ Karena PopCash hanya menawarkan iklan jenis pop-under, ada potensi gangguan terh
 
 <h2 class='main-heading'>Jenis Iklan</h2>
 
-Sampai saat ini, PopCash.net menerapkan dua jenis iklan yaitu:
+Sampai saat ini, Mondiad menawarkan beberapa jenis iklan yaitu:
 
 1. Classic Push
 2. Interstitial
@@ -71,7 +71,7 @@ Sampai saat ini, PopCash.net menerapkan dua jenis iklan yaitu:
 
 ### 7 Mei 2025
 
-Sampai sekarang, masih banyak yang memberikan ulasan bahwa PopCash.net masih lancar dari segi pencairan payment.
+Sampai sekarang, masih banyak yang memberikan ulasan bahwa Mondiad masih lancar dari segi pencairan payment.
 
 <h2 class='main-heading'>Kesimpulan</h2>
 
@@ -79,5 +79,5 @@ PopCash.net adalah pilihan yang baik bagi pemilik situs yang ingin memonetisasi 
 
 Jika kamu berminat mencoba, silahkan tekan tombol di bawah ini:
 
-<a href='https://popcash.net/register/487104' title='Popcash.net' target='_blank' rel='nofollow noopener noreferrer' class='btn block'>Daftar PopCash.net</a>
-{% include ads/popcash.js %}
+<a href='https://mondiad.com?refid=26075' title='Mondiad' target='_blank' rel='nofollow noopener noreferrer' class='btn block'>Daftar Mondiad</a>
+{% include ads/mondiad-native.js %}
