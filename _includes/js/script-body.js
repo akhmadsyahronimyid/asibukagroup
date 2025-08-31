@@ -31,22 +31,6 @@ document.querySelectorAll("pre code").forEach(a=>{const b=a.innerHTML.split("\n"
 /* Shareaholic */
 Defer.dom('.sharethis', 100, 'loaded', function(){Defer.js('https://platform-api.sharethis.com/js/sharethis.js#property=680fdc5c069b9100198cfeb5&product=inline-share-buttons&source=platform', 'sharethis-js', 0, function (){console.info('ShareThis is loaded.');})}, {rootMargin: "150%"});
 {% endif %}
-{% assign column_layouts = "default,archive,static" | split: "," %}
-{% unless column_layouts contains page.layout %}
-/* A-Ads Ad */
-Defer.dom(".a-ads-300x250-banner-ad",100,"loaded",function(b){var a = document.createElement('iframe');a.setAttribute('data-aa', '2393358');a.src = '//ad.a-ads.com/2393358?size=300x250';a.style.width = '300px';a.style.height = '250px';a.style.border = '0px';a.style.padding = '0';a.style.overflow = 'hidden';a.style.backgroundColor = 'transparent';a.appendChild(b);console.info("A-Ads 300x250 Banner ad is loaded.")},{rootMargin:"150%"});
-/* AdSterra Ad */
-Defer.dom(".adsterra-native-banner-ad",1000,"loaded",function(){var a=document.createElement("script");a.src="https://pl26580330.profitableratecpm.com/3a8af385fa8e48ff32763f504553414b/invoke.js",document.body.appendChild(a),console.info("Adsterra Native Banner ad is loaded.")},{rootMargin:"150%"});
-/* ClickAdilla Ad */
-Defer.dom(".clickadilla-300x250-banner-ad",100,"loaded",function(){var b=document.createElement("script");b.src="https://js.wpadmngr.com/static/adManager.js",b.setAttribute("data-admpid","323807"),document.body.appendChild(b),console.info("ClickAdilla 300x250 Banner ad is loaded.")},{rootMargin:"150%"});
-/* Yllix Ad */
-Defer.dom(".yllix-300x250-banner-ad",100,"loaded",function(b){console.info("Yllix 300x250 banner ad is loaded.");var a=Math.round(1e7*Math.random()),c=new Date,d=("00"+(c.getMonth()+1)).slice(-2)+"/"+("00"+c.getDate()).slice(-2)+"/"+c.getFullYear()+" "+("00"+c.getHours()).slice(-2)+":"+("00"+c.getMinutes()).slice(-2)+":"+("00"+c.getSeconds()).slice(-2),e=document.createElement("iframe");e.src="https://udbaa.com/bnr_xload.php?section=General&pub=927769&format=300x250&ga=g&xt=174587335892083&xtt="+a+"&dateStr="+d,e.width=300,e.height=250,e.frameBorder=0,e.setAttribute("sandbox","allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts"),e.scrolling="no",e.style.border="none",e.style.overflow="hidden",b.appendChild(e)},{rootMargin:"150%"});
-/* Evadav Ad */
-Defer.dom(".evadav-native-one-column-ad",100,"loaded",function(b){var a=document.createElement("script");a.src="https://curoax.com/na/waWQiOjExOTc4NzksInNpZCI6MTQ2MDQwOSwid2lkIjo3MDU5ODYsInNyYyI6Mn0=eyJ.js",b.appendChild(a),console.info("Evadav one column native ad is loaded.")},{rootMargin:"150%"});
-Defer.dom(".evadav-native-four-columns-ad",100,"loaded",function(b){var a=document.createElement("script");a.src="https://curoax.com/na/waWQiOjExOTc4NzksInNpZCI6MTQ2MDQwOSwid2lkIjo3MTA5NzgsInNyYyI6Mn0=eyJ.js",b.appendChild(a),console.info("Evadav four columns native ad is loaded.")},{rootMargin:"150%"});
-/* Monetag Ad */
-Defer.dom(".monetag-inpage-push-ad",1000,"loaded",function(b){var a=document.createElement("script");a.src="https://vemtoutcheeg.com/400/9302599",b.appendChild(a),console.info("Monetag Inpage Push Banner ad is loaded.")},{rootMargin:"150%"});
-{% endunless %}
 {% if page.comments == true %}
 /* Disqus */
 Defer.dom("#disqus_thread",100,"loaded",function(){var a=document.createElement("script");a.src="https://{{ site.disqus_shortname }}.disqus.com/embed.js",a.setAttribute("data-timestamp",+new Date),document.body.appendChild(a),console.info("Disqus is loaded.")},{rootMargin:"150%"});
