@@ -15,6 +15,8 @@ comments: true
 
 Mondiad merupakan jaringan iklan global yang diluncurkan pada 2019 oleh tim di balik jaringan pop-under PopCash. Platform ini bersifat self-serve dan mendukung beragam format iklan seperti Classic Push, In-Page Push, Native, Banner, Dynamic, dan Interstitial, dengan model biaya seperti CPM, CPC, maupun TargetCPA yang memungkinkan pengiklan mengoptimalkan kampanye berdasarkan konversi atau tayangan. Dilengkapi dengan pelacakan real-time, penargetan granular, dan sistem anti-fraud canggih, Mondiad memudahkan pengelolaan kampanye sambil memastikan trafik berkualitas dan ROI yang lebih tinggi.
 
+{% include ads/mondiad-banner.js %}
+
 <h2 class='main-heading'>Antarmuka dan Proses Pendaftaran</h2>
 
 Mondiad menawarkan antarmuka yang intuitif dan self-serve, dirancang agar pengguna—baik publisher maupun advertiser—dapat menjalankan kampanye atau monetisasi dengan cepat dan efisien. Platform ini mengedepankan kemudahan navigasi serta penyiapan kampanye yang smooth, memungkinkan pengguna memulai hanya dalam sekitar sepuluh menit.
@@ -41,8 +43,12 @@ Karena PopCash hanya menawarkan iklan jenis pop-under, ada potensi gangguan terh
 
 Sampai saat ini, PopCash.net menerapkan dua jenis iklan yaitu:
 
-1. Popunder
-2. Tabunder
+1. Classic Push
+2. Interstitial
+3. Dynamic
+4. In-page Push
+5. Native
+6. Banner
 
 <h2 class='main-heading'>Kelebihan</h2>
 
