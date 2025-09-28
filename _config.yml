@@ -43,6 +43,8 @@ collections:
     output: true
   ad-networks:
     output: true
+  anime:
+    output: true
   asibuka-logistics:
     output: true
   asibuka-projects:
@@ -108,7 +110,6 @@ sameAs:
 # ------------------------------
 nav_links:
   Beranda: "/"
-  Cari: "/search/"
   Blog: "/blog/"
   Produk: "/produk/"
   Tentang Kami: "/page/tentang-kami/"
