@@ -20,8 +20,12 @@ toc: false
 <th>Laporan Bulanan</th><th>Link</th>
 </tr>
 <tr>
+<td>2025-10</td>
+<td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}?function=komisi-asibuka-logistics&title=Pegawai%20-%20Muhammad%20Falah%20Habibi%20Periode%202025-10&title1=Ringkasan&id1=2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0&gid1=585885373'>Lihat Laporan</a></td>
+</tr>
+<tr>
 <td>2025-09</td>
-<td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}?function=komisi-asibuka-logistics&title=Pegawai%20-%20Muhammad%20Falah%20Habibi%20Periode%202025-9&title1=Ringkasan&id1=2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0&gid1=585885373'>Lihat Laporan</a></td>
+<td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}?function=komisi-asibuka-logistics&title=Pegawai%20-%20Muhammad%20Falah%20Habibi%20Periode%202025-9&title1=Ringkasan&id1=2PACX-1vRMX8DBi8OgIhp9xd3AhXreNULWIzmqqNnCOwE_NMxmFLM19qOnlIyOq2YDoR5t2xYHPc_y4BmSMfSk&gid1=585885373'>Lihat Laporan</a></td>
 </tr>
 <tr>
 <td>2025-08</td>
