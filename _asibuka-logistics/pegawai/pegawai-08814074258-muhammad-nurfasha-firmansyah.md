@@ -20,8 +20,12 @@ toc: false
 <th>Laporan Bulanan</th><th>Link</th>
 </tr>
 <tr>
+<td>2025-11</td>
+<td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}?function=komisi-asibuka-logistics&title=Pegawai%20-%20Muhammad%20Nurfasha%20Firmansyah%20Periode%202025-11&title1=Ringkasan&id1=2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0&gid1=199091855'>Lihat Laporan</a></td>
+</tr>
+<tr>
 <td>2025-10</td>
-<td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}?function=komisi-asibuka-logistics&title=Pegawai%20-%20Muhammad%20Nurfasha%20Firmansyah%20Periode%202025-10&title1=Ringkasan&id1=2PACX-1vTPeqxEnkAUsKekA0eIwQVVYkwNwbjolgYHMSLBbMgM4vK9WStDfwXZW6raUkGvqah1BSPc7WXHCYa0&gid1=199091855'>Lihat Laporan</a></td>
+<td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}?function=komisi-asibuka-logistics&title=Pegawai%20-%20Muhammad%20Nurfasha%20Firmansyah%20Periode%202025-10&title1=Ringkasan&id1=2PACX-1vRyPWp7QTNDwcFXTrFtj9SL151FXmgbctYL3vDx-VX9pbRPriNz9xfsmAFxe6cqT4Gy5U1UHZ86v7LH&gid1=199091855'>Lihat Laporan</a></td>
 </tr>
 <tr>
 <td>2025-09</td>
