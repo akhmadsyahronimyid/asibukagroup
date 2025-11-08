@@ -30,7 +30,6 @@ function getParams(url) {
 function renderFromURL(url) {
   const p = getParams(url);
 
-  // --- Render Title ---
   if (p.title && p.title[0]) {
     const titleBox = document.getElementById("imagetitle");
     if (titleBox) {
@@ -38,7 +37,6 @@ function renderFromURL(url) {
     }
   }
 
-  // --- Render Images ---
   const ids   = p.id   || [];
   const imgs  = p.img  || [];
   const files = p.file || [];
@@ -57,10 +55,8 @@ function renderFromURL(url) {
     imagesBox.innerHTML = html;
   }
 
-  // --- Clean the URL ---
   history.replaceState(null, "", location.pathname);
 }
 
-// Run automatically on load
 renderFromURL(location.href);
 </script>
