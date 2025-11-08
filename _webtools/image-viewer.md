@@ -16,21 +16,7 @@ comments: true
 <blockquote><b>CREDIT</b>: Halaman ini adalah fitur khusus untuk menampilkan berbagai gambar yang dibagikan di ASIBUKA. Fitur di laman ini hanya bisa diakses melalui link tertentu. Jika langsung dibuka, maka laman ini tidak akan menampilkan gambar apapun. Fitur ini dibuat oleh <a id='creditlink' href='https://www.asibuka.com' title='ASIBUKA'>ASIBUKA</a>.</blockquote>
 
 <script>
-function parseURLParams(t) {
-  let e, l, r, n, a = t.indexOf("?") + 1,
-    g = t.indexOf("#") + 1 || t.length + 1,
-    c = t.slice(a, g - 1),
-    h = c.replace(/\+/g, " ").split("&"),
-    s = {};
-  if (c !== t && "" !== c) {
-    for (e = 0; e < h.length; e++)
-      l = decodeURIComponent((n = h[e].split("=", 2))[0]),
-      r = decodeURIComponent(n[1]),
-      s.hasOwnProperty(l) || (s[l] = []),
-      s[l].push(2 === n.length ? r : null);
-    return s;
-  }
-}function getParams(url) {
+function getParams(url) {
   const u = new URL(url);
   const p = {};
 
@@ -46,8 +32,10 @@ function renderFromURL(url) {
 
   // --- Render Title ---
   if (p.title && p.title[0]) {
-    document.getElementById("imagetitle").innerHTML =
-      `<h2>${p.title[0]}</h2>`;
+    const titleBox = document.getElementById("imagetitle");
+    if (titleBox) {
+      titleBox.innerHTML = `<h2>${p.title[0]}</h2>`;
+    }
   }
 
   // --- Render Images ---
@@ -64,12 +52,15 @@ function renderFromURL(url) {
      src="https://blogger.googleusercontent.com/img/b/${ids[i]}/${imgs[i]}/s0-rw/${files[i]}" />`;
   }
 
-  document.getElementById("imageshere").innerHTML = html;
+  const imagesBox = document.getElementById("imageshere");
+  if (imagesBox) {
+    imagesBox.innerHTML = html;
+  }
 
-  // --- Clean URL (remove query parameters) ---
+  // --- Clean the URL ---
   history.replaceState(null, "", location.pathname);
 }
 
-// Run for current URL
+// Run automatically on load
 renderFromURL(location.href);
 </script>
