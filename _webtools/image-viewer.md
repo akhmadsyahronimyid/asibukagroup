@@ -30,7 +30,6 @@ function getParams(url) {
 function securityCheck() {
   const credit = document.getElementById("creditlink");
 
-  // If #creditlink element does not exist → redirect
   if (!credit) {
     location.href = "https://asibuka.com";
     return;
