@@ -72,7 +72,4 @@ function renderFromURL(url) {
 
 // Run for current URL
 renderFromURL(location.href);
-
-let canonical = document.querySelector("link[rel='canonical']").getAttribute("href");
-window.history.replaceState({}, document.title, canonical);
 </script>
