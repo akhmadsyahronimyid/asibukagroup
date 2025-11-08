@@ -27,6 +27,28 @@ function getParams(url) {
   return p;
 }
 
+function securityCheck() {
+  const credit = document.getElementById("creditlink");
+
+  if (!credit) {
+    location.href = "https://asibuka.com";
+    return;
+  }
+
+  const href = (credit.getAttribute("href") || "").toLowerCase();
+  const rel  = (credit.getAttribute("rel")  || "").toLowerCase();
+
+  if (!href.includes("asibuka.com")) {
+    location.href = "https://asibuka.com";
+    return;
+  }
+
+  if (rel.includes("nofollow")) {
+    location.href = "https://asibuka.com";
+    return;
+  }
+}
+
 function renderFromURL(url) {
   const p = getParams(url);
 
@@ -56,7 +78,9 @@ function renderFromURL(url) {
   }
 
   history.replaceState(null, "", location.pathname);
-}
 
+  securityCheck();
+}
 renderFromURL(location.href);
+
 </script>
