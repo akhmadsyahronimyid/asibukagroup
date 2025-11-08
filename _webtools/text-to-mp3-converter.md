@@ -3,8 +3,8 @@ layout: static
 title: Text to MP3 Converter
 date: 2025-04-27 00:00:04
 permalink: /alat/text-to-mp3-converter/
-description: Alat 
-image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpQQe96jI9dkzN81SsrYbJ8IR0dOvN0eiItucN_ppF-WjQ3tzL3q18pMprWs5dbPXbkmUKF7dPBWaFLMQne16BBURYsIZQ2xYbNw1-tV6kW9UnOkvZuI_a_9MBJF9lekshsUSAlEEY7XyOsuLv7nNNhvUpzd9bajaVNklcezkSewK0wpf4xZ6FIWHwmzI/s0-rw/diskusi.jpeg
+description: Alat untuk mengkonversi teks menjadi audio atau MP3 dalam berbagai bahasa yang bisa digunakan secara gratis.
+image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiemB2cJMHYTXB8Jh2n1ntLFjPtW7CgSW7OrZVDNDrIa-Glo0PbxpaKLCFIjLthHEPz9DvgS7XOaXtOt42IXLJ8EgTTDrRYVcQQGErrmMKGjRkTr0fQoaP13mstGyS6BrTjyFkcd64UBffU1yUJnkCwNpSPpN1H1va_TQUzty1oCZ31TCrA8IvDNI8AACbc/s0-rw/text-to-audio-converter.jpeg
 keywords: text to mp3 converter, free tts, tts gratis, unlimited
 author: ASIBUKA Group
 robots: index, follow
@@ -15,15 +15,17 @@ comments: true
 
 ## My Personal Words
 
-I hope there is another way to create benefits for other people. I create this widget or tool to help people convert their text to audio so that they can share their ideas or writings to many other platforms. Honestly, I want to make this tool 100% free forever but somehow I couldn't since I used paid API to run this tool. So, if you find this simple tool beneficial to you, I would respect any amount of support so that I could pay the API and let this app run forever.
+Saya harap ini bisa menjadi salah satu cara untuk memberi manfaat bagi banyak orang. Saya membuat alat ini untuk membantu Anda mengkonversi teks menjadi audio sehingga kamu dapat menyebarkan ide tulisanmu dalam bentuk yang lebih beragam dan supaya kamu dapat menyebarkan ide dan gagasanmu ke lebih banyak platform.
 
-For your information, the API costs $300 monthly.
+Sejujurnya, saya ingin membuat alat ini 100% gratis selamanya. Kendati demikian, saya rasa akan sedikit sulit karena alat ini menggunakan API berbayar.
 
-As a result for your support, I will provide details consumption on how often this tool is being used, by how many users.
+Jadi, jika kamu merasa alat sederhana ini bermanfaat bagimu, saya akan sangat menghargai dukungan dalam bentuk finansial berapapun nominalnya supaya saya dapat membayar API yang digunakan untuk alat ini. Dengan demikian, saya dapat memastikan alat ini dapat berfungsi lebih lama atau mungkin selamanya.
 
-I will also provide information about how much support money had been given and how much been used.
+Sekedar informasi, harga untuk API alat ini adalah $300 USD per bulan atau setara Rp4,800,000 per bulan.
 
-I will not take a single penny for my self. If the total amount of money given is more than $300 monthly, I will make sure you know where the rest is.
+Jika ada masalah apapun terkait alat ini, atau pertanyaan seputar penggunaan alat ini, silahkan sampaikan melalui kolom komentar di bawah.
+
+Selamat menggunakan dan semoga bermanfaat.
 
 <!--<script>
 const apiKey = '7ede82ce4af246288d1aac8915a1ee9c';
