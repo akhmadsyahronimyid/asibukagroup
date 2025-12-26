@@ -20,8 +20,8 @@ toc: false
 <th>Laporan Bulanan</th><th>Link</th>
 </tr>
 <tr>
-<td>2025-12</td>
-<td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}?function=komisi-asibuka-logistics&title=VIP%20-%20ZONE%20PACK%20Periode%202025-12&title1=Ringkasan&id1=2PACX-1vRMX8DBi8OgIhp9xd3AhXreNULWIzmqqNnCOwE_NMxmFLM19qOnlIyOq2YDoR5t2xYHPc_y4BmSMfSk&gid1=1497796779'>Lihat Laporan</a></td>
+<td>Ongoing</td>
+<td><a class='btn block' title='Lihat Laporan' href='{{ page.url | replace: "/amp/" , "" }}?function=komisi-asibuka-logistics&title=VIP%20-%20ZONE%20PACK%20Periode%20Ongoing&title1=Ringkasan&id1=2PACX-1vRMX8DBi8OgIhp9xd3AhXreNULWIzmqqNnCOwE_NMxmFLM19qOnlIyOq2YDoR5t2xYHPc_y4BmSMfSk&gid1=1497796779'>Lihat Laporan</a></td>
 </tr>
 <tr>
 <td>2025-11</td>
