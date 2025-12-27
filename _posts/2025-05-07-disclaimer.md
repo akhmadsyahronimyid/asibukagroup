@@ -4,7 +4,7 @@ title: Apa itu Laman Disclaimer, Fungsi dan Contohnya
 date: 2025-05-07 00:00:06
 permalink: /apa-itu-laman-disclaimer/
 categories: [Informasi]
-tags: [disclaimer, sanggahan]
+tags: [-]
 lang: id
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiW40CROUlbO4Tj5dAqa9B7wDMm9FgB6hWjvwRwE2au0sCDvbo4-SbyFL9Qsyk5-E_LSmSN-wGX7em8sVrJi1JmckIVBd5RuT8mwM5OMH9gA-E_cfVoPDrvRDhRVoHGyUyafHABGP3T0nYObJG0v8noZ3xD_IENv4YyHrjcjcaciHCTQlB0ndGs2UOJg6Q/s0-rw/disclaimer.jpeg
 description: Penjelasan ringkas tentang apa itu laman Disclaimer untuk sebuah website atau blog informasi lengkap beserta fungsi dan contohnya.

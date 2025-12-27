@@ -4,7 +4,7 @@ title: "Instagram: Be Sociable, Not Instagramable"
 date: 2025-04-05 00:00:05
 permalink: /be-sociable-not-instagramable/
 categories: [Opini]
-tags: [instagram, opini]
+tags: [-]
 lang: id
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjYC_9H3rtis6eqwyoHntfrv5AVEaCNZSMXZ4b3hn4eihs9kk2NpKnZ6ealW-4q9r2McSuOnfZoXgZxyottJhVgPWonfEhyphenhyphenq-sfXmKkBSKD9j64BMAFbjtcP7vmNFM1IxlkZZPwrxuLN71lNBPi0uBzPy3anCrPnKtNCqPMg9p5DvsDlKhakz_zIv6FVg/s1600/instagramable.jpeg
 description: Opini tentang kaum milenial yang main Instagram dan malah nyombong, bukannya bersosialisasi. Duh!

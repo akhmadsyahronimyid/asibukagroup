@@ -4,7 +4,7 @@ title: "Lazy-Loading: Penjelasan Lengkap dan Cara Kerjanya"
 date: 2025-04-27 00:00:05
 permalink: /lazy-loading/
 categories: [Informasi]
-tags: [lazyload, lazy loading]
+tags: [-]
 lang: id
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhc2QkbJMpyAD97Bu1rZFijod7wLZUae4nbuRPHNc38c1HzIDOpg2KCdpxhqQO1UU7LoXrvPCNDwAdF5qRxM880PyNiWgfPyQIw4sJlJHHXq16NY3FpXg-C6d2eLmjnXOaYqm462eFXQ_W8IVN77l_myGgW3gpOtKX6FVgPv7s3Ls-ehXXobX0slWDDM8A/s0-rw/lazy-loading.jpeg
 description: Penjelasan lengkap tentang lazyload / lazy-loading, jenis, dan cara kerjanya.

@@ -32,7 +32,7 @@ Juga, sebagai sesama umat muslim, sudah menjadi kewajiban bagi kita untuk saling
 
 ## Kesimpulan
 
-Jadi, hukum berjihad bagi warga Palestina dalam mempertahankan tanah airnya adalah sebuah tindakan yang dihalalkan, meskipun beberapa tindakan (seperti bom bunuh diri) membawa mudharat lebih besar ketimbang kebermanfaatnya.
+Jadi, hukum berjihad bagi warga Palestina dalam mempertahankan tanah airnya adalah sebuah tindakan yang dihalalkan, meskipun beberapa tindakan (seperti bom bunuh diri) membawa mudharat lebih besar ketimbang kebermanfaatannya.
 
 Mari kita selalu usahakan yang terbaik untuk saudara-saudara kita di negeri Syam sana.
 

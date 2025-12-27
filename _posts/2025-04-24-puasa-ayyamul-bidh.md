@@ -4,7 +4,7 @@ title: Puasa Ayyamul Bidh
 date: 2025-04-24 00:00:05
 permalink: /puasa-ayyamul-bidh/
 categories: [Informasi]
-tags: [islam, sunnah, puasa, ayyamul bidh]
+tags: [islam]
 lang: id
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP_AKSYaiqLx1vCORqu5u6Jv3wRuwd-hwj78UeEkW-Maxy6cgZGpc4XQjLJBd0H5jaYkVzMbgx0cDfrxs1SHr2745LtNDcZCpFfitdiQrWYJQucPehKVNYnGIkLAdVnaFqWjttN3wO5GEBKD1R7DiPxjwBNUgrmw5-z7Fml4wYIs3hyGQa-0rrA1jqwpw/s0-rw/puasa-ayyamul-bidh.jpeg
 description: Rangkuman penjelasan mengenai puasa ayyamul bidh beserta dalil, keutamaan, lafal doa niat dan tata caranya.
