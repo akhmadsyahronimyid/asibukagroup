@@ -114,6 +114,11 @@ nav_links:
   Produk: "/produk/"
   Tentang Kami: "/page/tentang-kami/"
 # ------------------------------
+# Jekyll Paginate
+# ------------------------------
+paginate: 5
+paginate_path: "/blog/page:num/"
+# ------------------------------
 # Plugins
 # ------------------------------
 plugins_dir: _plugins
@@ -125,6 +130,7 @@ plugins:
   - ./_plugins/minifier.rb
   - ./_plugins/toc_generator.rb
 whitelist:
+  - jekyll-paginate
   - jekyll-archives
   - jekyll-sitemap
   - ./_plugins/amp_generator.rb
@@ -145,9 +151,3 @@ jekyll-archives:
     month: '/:year/:month/'
     tag: '/tag/:name/'
     category: '/kategori/:name/'
-
-# ------------------------------
-# Jekyll Paginate
-# ------------------------------
-paginate: 5
-paginate_path: "/blog/page:num/"
