@@ -9,8 +9,7 @@
 {% if page.is_amp %}
 <style amp-custom>
 {% else %}
-<style>
-{% endif %}{% include style.css %}</style>
+<style>{% endif %}{% include style.css %}</style>
 {% unless page.collection %}
 {% include layout/json-homepage.html %}
 {% endunless %}
