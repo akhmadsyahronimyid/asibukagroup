@@ -39,6 +39,8 @@ permalink: /:title/
 # 🗂 Collections
 # ------------------------------
 collections:
+  0lists:
+    output: true
   posts:
     output: true
   ad-networks:
@@ -114,23 +116,16 @@ nav_links:
   Produk: "/produk/"
   Tentang Kami: "/page/tentang-kami/"
 # ------------------------------
-# Jekyll Paginate
-# ------------------------------
-paginate: 5
-paginate_path: "/blog/page:num/"
-# ------------------------------
 # Plugins
 # ------------------------------
 plugins_dir: _plugins
 plugins:
-  - jekyll-paginate
   - jekyll-archives
   - jekyll-sitemap
   - ./_plugins/amp_generator.rb
   - ./_plugins/minifier.rb
   - ./_plugins/toc_generator.rb
 whitelist:
-  - jekyll-paginate
   - jekyll-archives
   - jekyll-sitemap
   - ./_plugins/amp_generator.rb
