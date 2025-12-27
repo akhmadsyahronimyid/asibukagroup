@@ -112,9 +112,14 @@ sameAs:
 # ------------------------------
 nav_links:
   Beranda: "/"
-  Blog: "/blog/"
+  Jasa: "#"
   Produk: "/produk/"
   Tentang Kami: "/page/tentang-kami/"
+# ------------------------------
+# Blog Posts links
+# ------------------------------
+blog_links:
+  Blog: "/blog/"
 # ------------------------------
 # Plugins
 # ------------------------------
